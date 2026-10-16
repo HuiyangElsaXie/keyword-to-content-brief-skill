@@ -1,0 +1,189 @@
+{
+  "business_context": {
+    "audience": "Boat maintenance teams",
+    "next_action": "Review the pump maintenance checklist.",
+    "primary_objective": "Help users maintain bilge pumps"
+  },
+  "business_context_provenance": {},
+  "business_context_status": "self_reported_unverified",
+  "candidates": [
+    {
+      "id": "N1",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "keyword": "bilge pump installation guide",
+      "new_page_evidence": {
+        "business_rationale": "Maintenance teams also need safe installation preparation.",
+        "evidence_locator": "fictional audit section 2",
+        "gap": "A reviewed installation guide is absent from the fictional current inventory.",
+        "source_id": "F1"
+      },
+      "normalized_keyword": "bilge pump installation guide",
+      "normalized_urls": [],
+      "serp": null,
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    }
+  ],
+  "clusters": [],
+  "content_purpose": "general",
+  "evidence_input": {
+    "business_context": {
+      "audience": "Boat maintenance teams",
+      "next_action": "Review the pump maintenance checklist.",
+      "primary_objective": "Help users maintain bilge pumps"
+    },
+    "candidates": [
+      {
+        "id": "N1",
+        "intent": "commercial",
+        "intent_reason": "Evaluation of professional evidence, not product shopping.",
+        "keyword": "bilge pump installation guide",
+        "new_page_evidence": {
+          "business_rationale": "Maintenance teams also need safe installation preparation.",
+          "evidence_locator": "fictional audit section 2",
+          "gap": "A reviewed installation guide is absent from the fictional current inventory.",
+          "source_id": "F1"
+        },
+        "serp": null,
+        "source_id": "F1",
+        "volume": null
+      }
+    ],
+    "existing_page_inventory": {
+      "evidence_locator": "fictional inventory review section 1",
+      "pages": [
+        {
+          "evidence_locator": "fictional inventory page review",
+          "source_id": "F1",
+          "terms": [
+            "bilge pump maintenance"
+          ],
+          "title": "Bilge pump care",
+          "url": "https://marine.example/guides/pumps"
+        }
+      ],
+      "source_id": "F1",
+      "status": "complete"
+    },
+    "fictional": true,
+    "project": "Fictional marine equipment",
+    "schema_version": "cluster-input-1.0",
+    "seed": "bilge pump installation guide",
+    "sources": [
+      {
+        "description": "Wholly fictional independent inventory and business-context regression evidence; reserved example domains.",
+        "id": "F1",
+        "kind": "synthetic"
+      }
+    ]
+  },
+  "existing_page_inventory": {
+    "evidence_locator": "fictional inventory review section 1",
+    "pages": [
+      {
+        "evidence_locator": "fictional inventory page review",
+        "source_id": "F1",
+        "terms": [
+          "bilge pump maintenance"
+        ],
+        "title": "Bilge pump care",
+        "url": "https://marine.example/guides/pumps"
+      }
+    ],
+    "source_id": "F1",
+    "status": "complete"
+  },
+  "fictional": true,
+  "inventory_status": "complete",
+  "links": [],
+  "ordering": "Deterministic structural order, not demand or publication priority",
+  "pages": [
+    {
+      "candidate_ids": [
+        "N1"
+      ],
+      "candidate_next_actions": {
+        "N1": "Review the pump maintenance checklist."
+      },
+      "cluster_id": null,
+      "content_purpose": "general",
+      "conversion_definition": null,
+      "coverage_evidence": [
+        {
+          "candidate_id": "N1",
+          "coverage_evidence": [
+            {
+              "basis": "supplied_gap_and_business_rationale_not_independently_verified",
+              "business_rationale": "Maintenance teams also need safe installation preparation.",
+              "evidence_locator": "fictional audit section 2",
+              "gap": "A reviewed installation guide is absent from the fictional current inventory.",
+              "source_id": "F1"
+            }
+          ],
+          "existing_urls": [],
+          "status": "new_proposal"
+        }
+      ],
+      "editorial": {},
+      "evidence_status": "provisional_intent_only",
+      "existing_urls": [],
+      "id": "page-001",
+      "intent": "commercial",
+      "next_action": "Review the pump maintenance checklist.",
+      "path_status": "no_new_url_authorized",
+      "primary_keyword": "bilge pump installation guide",
+      "proposed_path": null,
+      "rationale": "Objective: Help users maintain bilge pumps. Positioning: unknown; obtain a defensible positioning statement. Validate reader job and supporting claims before commissioning.",
+      "role": "pillar",
+      "secondary_keywords": [],
+      "status": "new_proposal",
+      "template": "comparison",
+      "title": "bilge pump installation guide",
+      "volume": null,
+      "word_target": [
+        2500,
+        4000
+      ]
+    }
+  ],
+  "pairs": [],
+  "pillar_id": "page-001",
+  "pillar_selection": "Seed page if present; otherwise highest count of measured topic connections, then stable ID. Editorial heuristic, not demand ranking.",
+  "project": "Fictional marine equipment",
+  "publication_status": "not_executed",
+  "schema_version": "cluster-plan-1.0",
+  "seed": "bilge pump installation guide",
+  "serp_matrix": {
+    "candidate_ids": [
+      "N1"
+    ],
+    "scores": [
+      [
+        null
+      ]
+    ]
+  },
+  "settings": {
+    "candidate_target_max": 50,
+    "candidate_target_min": 30,
+    "cross_link_limit": 1,
+    "pillar_words": [
+      2500,
+      4000
+    ],
+    "sibling_link_limit": 3,
+    "spoke_words": [
+      1200,
+      1800
+    ]
+  },
+  "warnings": [
+    "Planning heuristics, not Google rules or publication approval. No demand, urgency, ranking or traffic lift is inferred.",
+    "Source records are supplied provenance, not independent verification. Analyst must confirm organic ranking order, freshness and authenticity.",
+    "Word ranges and link counts are adjustable editorial heuristics. Hub/spoke links require relevance review.",
+    "Candidate count outside configured discovery target; do not fabricate candidates to meet a quota.",
+    "Missing/exploratory/incomplete evidence: intent-only provisional folders do not establish SERP clusters or merge authority."
+  ]
+}

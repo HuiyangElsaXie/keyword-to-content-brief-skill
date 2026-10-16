@@ -1,0 +1,16 @@
+{
+  "captured_at_utc": "2026-10-16T01:48:25.217310+00:00",
+  "first_output_sha256": "ff26ae0dace10c3e4d3bd89e594ca2d8b9276101a6e35fd0e1566558d9b491e4",
+  "source_files": {
+    "skills/keyword-to-content-brief/SKILL.md": "71eaa2b059f91ad32d5416bd6968c602f5aa13351cc4750286a59bb0dba997eb",
+    "docs/input-contract.md": "f0307f0aae0092a153b795c5b1ebe57010d79348acff82a78874a5d500acbb33",
+    "examples/studio-case/REQUEST.md": "19d32141467c3ebb44d69654010fa3ce60b2b4cc8ffc0490e0d0d30caccabe64",
+    "examples/studio-case/input.json": "1d22cbbec9962a96023837fde3d9ba770434a884319495cf54fc4fd70f268cf4",
+    "scripts/plan_keywords.py": "ce651a3f88b2fb4200791f089de927c64ad88988b954655f788abc3f9f6e68eb"
+  },
+  "helper_artifacts": {
+    "brief-scaffolds.md": "f9555887a7656efb79a69479f0fd14d08e3b62055b4af208120c05ecc6658d50",
+    "plan.json": "4dc0c2ab453c865c20c60b656f4714580098950253eec4d13839e5dff2f62577",
+    "plan.md": "63b756fc0423f98238e7cf4da7600a42f12aee08cab70c5213fa530f6c74ae4e"
+  }
+}

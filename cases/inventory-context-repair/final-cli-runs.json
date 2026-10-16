@@ -1,0 +1,44 @@
+[
+  {
+    "case": "complete-new-gap",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "distinct-existing-destinations",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-briefs/page-002.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "explicit-new-site",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "marine-existing",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-briefs/page-002.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "missing-inventory",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "partial-inventory",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  },
+  {
+    "case": "portfolio-existing",
+    "returncode": 0,
+    "stdout": "{\"command\": \"plan\", \"files\": [\"cluster-briefs/page-001.md\", \"cluster-map.html\", \"cluster-plan.json\", \"cluster-plan.md\", \"cluster-scorecard.json\", \"cluster-scorecard.md\"], \"publication_status\": \"not_executed\"}\n",
+    "stderr": ""
+  }
+]

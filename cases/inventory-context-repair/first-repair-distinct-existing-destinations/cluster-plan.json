@@ -1,0 +1,318 @@
+{
+  "business_context": {
+    "audience": "Design research hiring teams",
+    "brand_position": "Research methods demonstrated through documented projects",
+    "content_purpose": "recruitment_portfolio",
+    "next_action": "Review the case-study evidence, then contact the candidate.",
+    "primary_objective": "Support evidence-led hiring review"
+  },
+  "business_context_provenance": {},
+  "business_context_status": "self_reported_unverified",
+  "candidates": [
+    {
+      "existing_page": {
+        "coverage": "sufficient",
+        "evidence_locator": "fictional supplied mapping",
+        "source_id": "F1",
+        "url": "https://portfolio.example/work/research"
+      },
+      "id": "R1",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "keyword": "design research portfolio",
+      "normalized_keyword": "design research portfolio",
+      "normalized_urls": [],
+      "serp": null,
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    },
+    {
+      "existing_page": {
+        "coverage": "unknown",
+        "evidence_locator": "fictional supplied mapping",
+        "source_id": "F1",
+        "url": "https://portfolio.example/work/interviews"
+      },
+      "id": "R2",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "keyword": "research case study portfolio",
+      "normalized_keyword": "research case study portfolio",
+      "normalized_urls": [],
+      "serp": null,
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    }
+  ],
+  "clusters": [
+    {
+      "evidence_status": "provisional_intent_only",
+      "id": "topic-001",
+      "label": "research case study portfolio",
+      "page_ids": [
+        "page-002"
+      ]
+    }
+  ],
+  "content_purpose": "recruitment_portfolio",
+  "evidence_input": {
+    "business_context": {
+      "audience": "Design research hiring teams",
+      "brand_position": "Research methods demonstrated through documented projects",
+      "content_purpose": "recruitment_portfolio",
+      "next_action": "Review the case-study evidence, then contact the candidate.",
+      "primary_objective": "Support evidence-led hiring review"
+    },
+    "candidates": [
+      {
+        "existing_page": {
+          "coverage": "sufficient",
+          "evidence_locator": "fictional supplied mapping",
+          "source_id": "F1",
+          "url": "https://portfolio.example/work/research"
+        },
+        "id": "R1",
+        "intent": "commercial",
+        "intent_reason": "Evaluation of professional evidence, not product shopping.",
+        "keyword": "design research portfolio",
+        "serp": null,
+        "source_id": "F1",
+        "volume": null
+      },
+      {
+        "existing_page": {
+          "coverage": "unknown",
+          "evidence_locator": "fictional supplied mapping",
+          "source_id": "F1",
+          "url": "https://portfolio.example/work/interviews"
+        },
+        "id": "R2",
+        "intent": "commercial",
+        "intent_reason": "Evaluation of professional evidence, not product shopping.",
+        "keyword": "research case study portfolio",
+        "serp": null,
+        "source_id": "F1",
+        "volume": null
+      }
+    ],
+    "existing_page_inventory": {
+      "evidence_locator": "fictional inventory review section 1",
+      "pages": [
+        {
+          "evidence_locator": "fictional inventory page review",
+          "source_id": "F1",
+          "terms": [
+            "design research portfolio",
+            "research case study portfolio"
+          ],
+          "title": "Research work",
+          "url": "https://portfolio.example/work/research"
+        }
+      ],
+      "source_id": "F1",
+      "status": "complete"
+    },
+    "fictional": true,
+    "project": "Fictional professional portfolio",
+    "schema_version": "cluster-input-1.0",
+    "seed": "design research portfolio",
+    "sources": [
+      {
+        "description": "Wholly fictional independent inventory and business-context regression evidence; reserved example domains.",
+        "id": "F1",
+        "kind": "synthetic"
+      }
+    ]
+  },
+  "existing_page_inventory": {
+    "evidence_locator": "fictional inventory review section 1",
+    "pages": [
+      {
+        "evidence_locator": "fictional inventory page review",
+        "source_id": "F1",
+        "terms": [
+          "design research portfolio",
+          "research case study portfolio"
+        ],
+        "title": "Research work",
+        "url": "https://portfolio.example/work/research"
+      }
+    ],
+    "source_id": "F1",
+    "status": "complete"
+  },
+  "fictional": true,
+  "inventory_status": "complete",
+  "links": [
+    {
+      "anchor": "research case study portfolio",
+      "evidence_basis": "proposed editorial navigation; validate relevance",
+      "from": "page-001",
+      "source": "editorial_architecture",
+      "to": "page-002",
+      "type": "hub_spoke"
+    },
+    {
+      "anchor": "design research portfolio",
+      "evidence_basis": "proposed editorial navigation; validate relevance",
+      "from": "page-002",
+      "source": "editorial_architecture",
+      "to": "page-001",
+      "type": "hub_spoke"
+    }
+  ],
+  "ordering": "Deterministic structural order, not demand or publication priority",
+  "pages": [
+    {
+      "candidate_ids": [
+        "R1"
+      ],
+      "candidate_next_actions": {
+        "R1": "Review the case-study evidence, then contact the candidate."
+      },
+      "cluster_id": null,
+      "content_purpose": "recruitment_portfolio",
+      "conversion_definition": null,
+      "coverage_evidence": [
+        {
+          "candidate_id": "R1",
+          "coverage_evidence": [
+            {
+              "basis": "explicit_candidate_mapping",
+              "coverage": "sufficient",
+              "evidence_locator": "fictional supplied mapping",
+              "source_id": "F1",
+              "url": "https://portfolio.example/work/research"
+            }
+          ],
+          "existing_urls": [
+            "https://portfolio.example/work/research"
+          ],
+          "status": "retain"
+        }
+      ],
+      "editorial": {},
+      "evidence_status": "provisional_intent_only",
+      "existing_urls": [
+        "https://portfolio.example/work/research"
+      ],
+      "id": "page-001",
+      "intent": "commercial",
+      "next_action": "Review the case-study evidence, then contact the candidate.",
+      "path_status": "existing_destination_review",
+      "primary_keyword": "design research portfolio",
+      "proposed_path": "https://portfolio.example/work/research",
+      "rationale": "Objective: Support evidence-led hiring review. Positioning: Research methods demonstrated through documented projects. Validate reader job and supporting claims before commissioning.",
+      "role": "pillar",
+      "secondary_keywords": [],
+      "status": "retain",
+      "template": "recruiter-evidence-review",
+      "title": "design research portfolio",
+      "volume": null,
+      "word_target": null
+    },
+    {
+      "candidate_ids": [
+        "R2"
+      ],
+      "candidate_next_actions": {
+        "R2": "Review the case-study evidence, then contact the candidate."
+      },
+      "cluster_id": "topic-001",
+      "content_purpose": "recruitment_portfolio",
+      "conversion_definition": null,
+      "coverage_evidence": [
+        {
+          "candidate_id": "R2",
+          "coverage_evidence": [
+            {
+              "basis": "explicit_candidate_mapping",
+              "coverage": "unknown",
+              "evidence_locator": "fictional supplied mapping",
+              "source_id": "F1",
+              "url": "https://portfolio.example/work/interviews"
+            }
+          ],
+          "existing_urls": [
+            "https://portfolio.example/work/interviews"
+          ],
+          "status": "review_existing"
+        }
+      ],
+      "editorial": {},
+      "evidence_status": "provisional_intent_only",
+      "existing_urls": [
+        "https://portfolio.example/work/interviews"
+      ],
+      "id": "page-002",
+      "intent": "commercial",
+      "next_action": "Review the case-study evidence, then contact the candidate.",
+      "path_status": "existing_destination_review",
+      "primary_keyword": "research case study portfolio",
+      "proposed_path": "https://portfolio.example/work/interviews",
+      "rationale": "Objective: Support evidence-led hiring review. Positioning: Research methods demonstrated through documented projects. Validate reader job and supporting claims before commissioning.",
+      "role": "spoke",
+      "secondary_keywords": [],
+      "status": "review_existing",
+      "template": "recruiter-evidence-review",
+      "title": "research case study portfolio",
+      "volume": null,
+      "word_target": null
+    }
+  ],
+  "pairs": [
+    {
+      "a": "R1",
+      "b": "R2",
+      "relation": "missing_or_noncomparable_top10",
+      "shared_top10": null
+    }
+  ],
+  "pillar_id": "page-001",
+  "pillar_selection": "Seed page if present; otherwise highest count of measured topic connections, then stable ID. Editorial heuristic, not demand ranking.",
+  "project": "Fictional professional portfolio",
+  "publication_status": "not_executed",
+  "schema_version": "cluster-plan-1.0",
+  "seed": "design research portfolio",
+  "serp_matrix": {
+    "candidate_ids": [
+      "R1",
+      "R2"
+    ],
+    "scores": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ]
+  },
+  "settings": {
+    "candidate_target_max": 50,
+    "candidate_target_min": 30,
+    "cross_link_limit": 1,
+    "pillar_words": [
+      2500,
+      4000
+    ],
+    "sibling_link_limit": 3,
+    "spoke_words": [
+      1200,
+      1800
+    ]
+  },
+  "warnings": [
+    "Planning heuristics, not Google rules or publication approval. No demand, urgency, ranking or traffic lift is inferred.",
+    "Source records are supplied provenance, not independent verification. Analyst must confirm organic ranking order, freshness and authenticity.",
+    "Word ranges and link counts are adjustable editorial heuristics. Hub/spoke links require relevance review.",
+    "Existing-page mappings and inventory coverage are supplied assertions, not independent audits. Lexical similarity is a review hint only.",
+    "No new destination is authorized. A new_proposal requires a supplied complete inventory and cited gap/business rationale, and still requires editorial approval.",
+    "Candidate count outside configured discovery target; do not fabricate candidates to meet a quota.",
+    "Missing/exploratory/incomplete evidence: intent-only provisional folders do not establish SERP clusters or merge authority."
+  ]
+}

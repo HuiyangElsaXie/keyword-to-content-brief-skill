@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/AgriciDaniel/claude-seo",
+  "commit": "4b99de2f7de7e7d5247042e5fb5b4ea9368ef734",
+  "retrieved_utc": "2026-10-16",
+  "method": "GitHub connector pinned raw-file response; UTF-8 written without newline transformation",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "94fac7465f1e76414fc59f9fd97cdfd2105e030d",
+      "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+      "bytes": 1069
+    },
+    {
+      "path": "skills/seo-cluster/SKILL.md",
+      "git_blob_sha1": "ede3adc3392b35e271fd55fa7fa3f06d10f59790",
+      "sha256": "9041eee8c40d60394790f27486aca9a424cb8b26971715fff7f6b07f701ff773",
+      "bytes": 13111
+    },
+    {
+      "path": "skills/seo-cluster/references/serp-overlap-methodology.md",
+      "git_blob_sha1": "1c023225a6bafbd4ab68e64ea56bf0e3ebc0f6c7",
+      "sha256": "a0c02dcd394a0cfe4636c02ce03da4ff58dc68b6f55ee0b3b9e36e10f20f7662",
+      "bytes": 4514
+    }
+  ]
+}

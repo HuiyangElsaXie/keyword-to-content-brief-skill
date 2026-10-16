@@ -1,0 +1,12 @@
+{
+  "method": "Node vm with minimal DOM simulation, not browser QA",
+  "syntax": "pass",
+  "initialCards": 4,
+  "initialGraphNodes": 4,
+  "clickDetails": "pass",
+  "searchFilter": "pass",
+  "roleFilters": "pass",
+  "keyboardDetails": "pass",
+  "networkCalls": 0,
+  "visualQA": "not performed; Chromium socket launch denied"
+}

@@ -1,0 +1,43 @@
+.........................F..........F...F.F....................................................................
+======================================================================
+FAIL: test_nav_and_mixed_are_review_only_without_word_budget (test_cluster_port_truth.NewCodexPortTruthTests.test_nav_and_mixed_are_review_only_without_word_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_cluster_port_truth.py", line 155, in test_nav_and_mixed_are_review_only_without_word_budget
+    self.assertEqual(page['status'],'review_only')
+AssertionError: 'defer' != 'review_only'
+- defer
++ review_only
+
+
+======================================================================
+FAIL: test_context_and_editorial_change_brief (test_cluster_workflow.ClusterWorkflowTests.test_context_and_editorial_change_brief)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_cluster_workflow.py", line 126, in test_context_and_editorial_change_brief
+    self.assertIn('page-', outgoing)
+AssertionError: 'page-' not found in '\n- None proposed; relevance review required.\n\n'
+
+======================================================================
+FAIL: test_links_root_consistency_and_honest_scorecard (test_cluster_workflow.ClusterWorkflowTests.test_links_root_consistency_and_honest_scorecard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_cluster_workflow.py", line 96, in test_links_root_consistency_and_honest_scorecard
+    self.assertTrue(report['all_reachable_within_two_clicks'])
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_navigation_retained_review_only (test_cluster_workflow.ClusterWorkflowTests.test_navigation_retained_review_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_cluster_workflow.py", line 137, in test_navigation_retained_review_only
+    self.assertEqual(p['status'], 'review_only')
+AssertionError: 'defer' != 'review_only'
+- defer
++ review_only
+
+
+----------------------------------------------------------------------
+Ran 111 tests in 1.204s
+
+FAILED (failures=4)

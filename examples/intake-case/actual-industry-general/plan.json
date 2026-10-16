@@ -1,0 +1,628 @@
+{
+  "schema_version": "0.3",
+  "business_context": {
+    "answers": {
+      "industry": {
+        "status": "supplied",
+        "value": "B2B design-studio workflow software",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "audience": {
+        "status": "supplied",
+        "value": "Small independent design studios onboarding a first retainer client",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "geography": {
+        "status": "supplied",
+        "value": "US",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "language": {
+        "status": "supplied",
+        "value": "en",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "brand_position": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "competitive_position": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "lifecycle": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "primary_objective": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "conversion_definition": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "resources": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "constraints": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "business_problem": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "objective_tradeoffs": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "website_stage": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "brand_lifecycle": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      },
+      "product_lifecycle": {
+        "status": "unknown",
+        "value": null,
+        "source_ids": []
+      }
+    },
+    "missing_for_commission": [
+      "primary_objective",
+      "business_problem",
+      "lifecycle",
+      "resources",
+      "constraints",
+      "brand_position",
+      "competitive_position"
+    ],
+    "report_mode": "industry_general",
+    "commissioning_status": "limited",
+    "next_questions": [
+      {
+        "field": "primary_objective",
+        "question": "What is the one primary objective: awareness, consideration, conversion, retention or other?"
+      },
+      {
+        "field": "lifecycle",
+        "question": "What stage is the product/brand at (prelaunch, launch, growth, mature, repositioning or other)?"
+      },
+      {
+        "field": "resources",
+        "question": "What production/review capacity, expertise, assets and measurement access are available?"
+      }
+    ],
+    "assumptions": [],
+    "objective": null,
+    "note": "Supplied answers are traceable statements, not independent verification. Unknown is accepted; do not fabricate priorities."
+  },
+  "guidance": {
+    "editorial_heuristic": "Compare education, evaluation, action and retention use cases as an industry-general reference; ask which problem matters before ranking work.",
+    "lifecycle": "unknown",
+    "brand_lifecycle": "unknown",
+    "product_lifecycle": "unknown",
+    "lifecycle_caution": "Use stage as supplied context, not evidence of demand. Prelaunch/launch work must not imply proven adoption; mature/repositioning work must check existing equity and coverage before replacing content.",
+    "brand_caution": "Brand terms can serve entity navigation or reassurance; nonbrand terms can serve problem discovery; competitor terms need verified comparison facts. None automatically means higher value.",
+    "reference_value": "Even without a concrete problem, the report can organize supplied intent, page coverage, evidence gaps and useful validation questions. This is general planning guidance, not invented industry research."
+  },
+  "work_items": [
+    {
+      "target": "/guides/client-onboarding",
+      "group_ids": [
+        "G1"
+      ],
+      "input_ids": [
+        "K1",
+        "K9",
+        "K2"
+      ],
+      "actions": [
+        "review_existing"
+      ],
+      "keyword_relationship": "Inventory co-routing only; separate group IDs do not establish a keyword cluster."
+    }
+  ],
+  "project": "MossNote Studio (fictional)",
+  "fictional": true,
+  "status": "needs_human_review",
+  "input_rows": 10,
+  "unique_keywords": 9,
+  "new_pages": 0,
+  "monthly_new_page_capacity": 1,
+  "decisions": [
+    {
+      "group_id": "G1",
+      "input_ids": [
+        "K1",
+        "K9",
+        "K2"
+      ],
+      "keywords": [
+        "client onboarding checklist",
+        "new client onboarding checklist"
+      ],
+      "primary_keyword": "client onboarding checklist",
+      "intent": "informational",
+      "business_priority": null,
+      "supplied_priority": 1,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "decision": "review_existing",
+      "target": "/guides/client-onboarding",
+      "reason": "inventory mapping is not a verified gap; review current coverage before proposing changes; business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G2",
+      "input_ids": [
+        "K10"
+      ],
+      "keywords": [
+        "client handoff checklist"
+      ],
+      "primary_keyword": "client handoff checklist",
+      "intent": "informational",
+      "business_priority": null,
+      "supplied_priority": 2,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "decision": "defer",
+      "target": null,
+      "reason": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G3",
+      "input_ids": [
+        "K3"
+      ],
+      "keywords": [
+        "client onboarding process"
+      ],
+      "primary_keyword": "client onboarding process",
+      "intent": "informational",
+      "business_priority": null,
+      "supplied_priority": 2,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "decision": "defer",
+      "target": null,
+      "reason": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G4",
+      "input_ids": [
+        "K4"
+      ],
+      "keywords": [
+        "client onboarding software comparison"
+      ],
+      "primary_keyword": "client onboarding software comparison",
+      "intent": "commercial",
+      "business_priority": null,
+      "supplied_priority": 1,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "consideration",
+      "decision": "defer",
+      "target": null,
+      "reason": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G5",
+      "input_ids": [
+        "K5"
+      ],
+      "keywords": [
+        "buy client onboarding template"
+      ],
+      "primary_keyword": "buy client onboarding template",
+      "intent": "transactional",
+      "business_priority": null,
+      "supplied_priority": 3,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "conversion",
+      "decision": "defer",
+      "target": null,
+      "reason": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G6",
+      "input_ids": [
+        "K6"
+      ],
+      "keywords": [
+        "mossnote login"
+      ],
+      "primary_keyword": "mossnote login",
+      "intent": "navigational",
+      "business_priority": null,
+      "supplied_priority": 1,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "brand",
+      "funnel_stage": "navigation",
+      "decision": "defer",
+      "target": null,
+      "reason": "navigational: verify the intended known entity and destination in supplied inventory; no article commission",
+      "evidence_source_ids": [
+        "S1"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": false,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G7",
+      "input_ids": [
+        "K7"
+      ],
+      "keywords": [
+        "client onboarding automation"
+      ],
+      "primary_keyword": "client onboarding automation",
+      "intent": "mixed",
+      "business_priority": null,
+      "supplied_priority": 2,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "unknown",
+      "decision": "defer",
+      "target": null,
+      "reason": "mixed intent: analyst must resolve reader job before commissioning",
+      "evidence_source_ids": [
+        "S1"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": false,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G8",
+      "input_ids": [
+        "K8"
+      ],
+      "keywords": [
+        "client onboarding checklist uk"
+      ],
+      "primary_keyword": "client onboarding checklist uk",
+      "intent": "informational",
+      "business_priority": null,
+      "supplied_priority": 3,
+      "priority_gate": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "decision": "defer",
+      "target": null,
+      "reason": "business intake incomplete: primary_objective, business_problem, lifecycle, resources, constraints, brand_position, competitive_position",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    }
+  ],
+  "pairs": [
+    {
+      "a": "K1",
+      "b": "K2",
+      "shared_top10": 8,
+      "relation": "same_page_candidate",
+      "intent_compatible": true
+    },
+    {
+      "a": "K1",
+      "b": "K3",
+      "shared_top10": 5,
+      "relation": "topic_candidate",
+      "intent_compatible": true
+    },
+    {
+      "a": "K1",
+      "b": "K4",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K1",
+      "b": "K5",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K1",
+      "b": "K6",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K1",
+      "b": "K7",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K1",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "incompatible_context",
+      "intent_compatible": true
+    },
+    {
+      "a": "K1",
+      "b": "K10",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": true
+    },
+    {
+      "a": "K2",
+      "b": "K3",
+      "shared_top10": 5,
+      "relation": "topic_candidate",
+      "intent_compatible": true
+    },
+    {
+      "a": "K2",
+      "b": "K4",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K2",
+      "b": "K5",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K2",
+      "b": "K6",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K2",
+      "b": "K7",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K2",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "incompatible_context",
+      "intent_compatible": true
+    },
+    {
+      "a": "K2",
+      "b": "K10",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": true
+    },
+    {
+      "a": "K3",
+      "b": "K4",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K3",
+      "b": "K5",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K3",
+      "b": "K6",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K3",
+      "b": "K7",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K3",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "incompatible_context",
+      "intent_compatible": true
+    },
+    {
+      "a": "K3",
+      "b": "K10",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": true
+    },
+    {
+      "a": "K4",
+      "b": "K5",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K4",
+      "b": "K6",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K4",
+      "b": "K7",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K4",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "incompatible_context",
+      "intent_compatible": false
+    },
+    {
+      "a": "K4",
+      "b": "K10",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K5",
+      "b": "K6",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K5",
+      "b": "K7",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K5",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "incompatible_context",
+      "intent_compatible": false
+    },
+    {
+      "a": "K5",
+      "b": "K10",
+      "shared_top10": 0,
+      "relation": "separate",
+      "intent_compatible": false
+    },
+    {
+      "a": "K6",
+      "b": "K7",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K6",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K6",
+      "b": "K10",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K7",
+      "b": "K8",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K7",
+      "b": "K10",
+      "shared_top10": null,
+      "relation": "missing_snapshot",
+      "intent_compatible": false
+    },
+    {
+      "a": "K8",
+      "b": "K10",
+      "shared_top10": null,
+      "relation": "incompatible_context",
+      "intent_compatible": true
+    }
+  ],
+  "limitations": [
+    "No search-volume, traffic or ranking claims.",
+    "Intent and inventory mappings are supplied analyst judgments.",
+    "Same-page grouping is a heuristic requiring editorial review; no merge/redirect is executed.",
+    "Single-snapshot decisions do not prove freshness, demand or conversion value.",
+    "Update workload is outside the new-page cap and must be estimated separately."
+  ]
+}

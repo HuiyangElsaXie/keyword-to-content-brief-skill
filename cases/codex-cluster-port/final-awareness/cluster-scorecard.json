@@ -1,0 +1,40 @@
+{
+  "actionable_planning_pages": 2,
+  "actual_coverage": null,
+  "all_reachable_within_two_clicks": true,
+  "articles_written": null,
+  "brief_scaffolds_generated": 4,
+  "briefs_generated": 4,
+  "briefs_with_supplied_editorial_direction": 2,
+  "duplicate_primary_keywords": 0,
+  "image_coverage": null,
+  "implemented_links": null,
+  "limitations": "Unobserved article, publication, image and implemented-link metrics remain null. A brief is not a written article.",
+  "measured_content_gaps": null,
+  "planned_incoming": {
+    "page-001": 3,
+    "page-002": 1,
+    "page-003": 1,
+    "page-004": 1
+  },
+  "planned_links": 6,
+  "planned_orphans": [],
+  "planned_outgoing": {
+    "page-001": 3,
+    "page-002": 1,
+    "page-003": 1,
+    "page-004": 1
+  },
+  "planned_pages": 4,
+  "provisional_pages": 2,
+  "published_pages": null,
+  "reachable_within_two_clicks": [
+    "page-001",
+    "page-002",
+    "page-003",
+    "page-004"
+  ],
+  "review_only_count": 2,
+  "schema_version": "cluster-scorecard-1.0",
+  "scope": "planned architecture and generated briefs only"
+}

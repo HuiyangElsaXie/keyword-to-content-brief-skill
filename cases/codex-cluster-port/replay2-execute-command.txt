@@ -1,0 +1,1 @@
+{"command": "execute", "files": ["cluster-briefs/page-001.md", "cluster-briefs/page-002.md", "cluster-briefs/page-003.md", "cluster-briefs/page-004.md", "cluster-scorecard.json", "cluster-scorecard.md"], "publication_status": "not_executed"}

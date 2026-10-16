@@ -1,0 +1,82 @@
+{
+  "kind": "structural and arithmetic checks, not editorial or SEO validation",
+  "checks": [
+    {
+      "check": "first pass preserved",
+      "passed": true,
+      "detail": "ff26ae0dace10c3e4d3bd89e594ca2d8b9276101a6e35fd0e1566558d9b491e4"
+    },
+    {
+      "check": "row count",
+      "passed": true,
+      "detail": "10 input rows"
+    },
+    {
+      "check": "unique query count",
+      "passed": true,
+      "detail": "K9 aliases K1; 9 unique queries"
+    },
+    {
+      "check": "all input IDs represented exactly once",
+      "passed": true,
+      "detail": "10 aliases/IDs appear once across decisions"
+    },
+    {
+      "check": "single new-page capacity",
+      "passed": true,
+      "detail": "one new page"
+    },
+    {
+      "check": "K4 selected",
+      "passed": true,
+      "detail": "primary priority-1 unmatched commercial query"
+    },
+    {
+      "check": "existing guide target and aliases",
+      "passed": true,
+      "detail": "one supplied guide update"
+    },
+    {
+      "check": "all unique pairs recorded",
+      "passed": true,
+      "detail": "36 unique-query pairs"
+    },
+    {
+      "check": "K1/K2 overlap",
+      "passed": true,
+      "detail": "8 shared normalized URLs"
+    },
+    {
+      "check": "K3 relationship",
+      "passed": true,
+      "detail": "5/10 with both checklist queries"
+    },
+    {
+      "check": "market mismatch not a merge",
+      "passed": true,
+      "detail": "GB/US overlap unavailable for automatic inference"
+    },
+    {
+      "check": "missing evidence remains unknown",
+      "passed": true,
+      "detail": "K6/K7 pairs have null overlap"
+    },
+    {
+      "check": "six deferred groups",
+      "passed": true,
+      "detail": "K6, K10, K3, K7, K5, K8"
+    },
+    {
+      "check": "two full brief sections",
+      "passed": true,
+      "detail": "editorial sections exist; depth assessed manually"
+    },
+    {
+      "check": "human review retained",
+      "passed": true,
+      "detail": "no human approval asserted"
+    }
+  ],
+  "passed": 15,
+  "failed": 0
+}

@@ -1,0 +1,380 @@
+{
+  "project": "MossNote Studio (fictional)",
+  "audience": "Small independent design studios onboarding a first retainer client",
+  "goal": "Give editors a small, useful content queue without duplicating existing pages",
+  "fictional": true,
+  "monthly_new_page_capacity": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "synthetic",
+      "description": "Author-created fictional editorial request and page inventory; not customer research."
+    },
+    {
+      "id": "S2",
+      "kind": "synthetic",
+      "description": "Author-created top-10 URL sets to exercise decisions; NOT Google results or real competitor pages."
+    }
+  ],
+  "existing_pages": [
+    {
+      "path": "/guides/client-onboarding",
+      "title": "Client onboarding guide",
+      "keyword_ids": [
+        "K1",
+        "K2"
+      ]
+    },
+    {
+      "path": "/product",
+      "title": "MossNote product overview",
+      "keyword_ids": []
+    }
+  ],
+  "keywords": [
+    {
+      "id": "K1",
+      "keyword": "client onboarding checklist",
+      "intent": "informational",
+      "intent_reason": "Needs a repeatable sequence.",
+      "business_priority": 1,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://guide.example/1",
+          "https://guide.example/2",
+          "https://guide.example/3",
+          "https://guide.example/4",
+          "https://guide.example/5",
+          "https://guide.example/6",
+          "https://guide.example/7",
+          "https://guide.example/8",
+          "https://guide.example/9",
+          "https://guide.example/10"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K2",
+      "keyword": "new client onboarding checklist",
+      "intent": "informational",
+      "intent_reason": "Same practical checklist job.",
+      "business_priority": 1,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://guide.example/1",
+          "https://guide.example/2",
+          "https://guide.example/3",
+          "https://guide.example/4",
+          "https://guide.example/5",
+          "https://guide.example/6",
+          "https://guide.example/7",
+          "https://guide.example/8",
+          "https://variant.example/1",
+          "https://variant.example/2"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K3",
+      "keyword": "client onboarding process",
+      "intent": "informational",
+      "intent_reason": "Broader workflow explanation.",
+      "business_priority": 2,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://guide.example/1",
+          "https://guide.example/2",
+          "https://guide.example/3",
+          "https://guide.example/4",
+          "https://guide.example/5",
+          "https://process.example/1",
+          "https://process.example/2",
+          "https://process.example/3",
+          "https://process.example/4",
+          "https://process.example/5"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K4",
+      "keyword": "client onboarding software comparison",
+      "intent": "commercial",
+      "intent_reason": "Evaluate tools before choosing.",
+      "business_priority": 1,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://compare.example/1",
+          "https://compare.example/2",
+          "https://compare.example/3",
+          "https://compare.example/4",
+          "https://compare.example/5",
+          "https://compare.example/6",
+          "https://compare.example/7",
+          "https://compare.example/8",
+          "https://compare.example/9",
+          "https://compare.example/10"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "consideration",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K5",
+      "keyword": "buy client onboarding template",
+      "intent": "transactional",
+      "intent_reason": "Purchase a downloadable asset.",
+      "business_priority": 3,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://buy.example/1",
+          "https://buy.example/2",
+          "https://buy.example/3",
+          "https://buy.example/4",
+          "https://buy.example/5",
+          "https://buy.example/6",
+          "https://buy.example/7",
+          "https://buy.example/8",
+          "https://buy.example/9",
+          "https://buy.example/10"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "conversion",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K6",
+      "keyword": "MossNote login",
+      "intent": "navigational",
+      "intent_reason": "Find a known product login.",
+      "business_priority": 1,
+      "source_id": "S1",
+      "serp": null,
+      "brand_scope": "brand",
+      "funnel_stage": "navigation",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K7",
+      "keyword": "client onboarding automation",
+      "intent": "mixed",
+      "intent_reason": "Could mean a guide or software; evidence absent.",
+      "business_priority": 2,
+      "source_id": "S1",
+      "serp": null,
+      "brand_scope": "nonbrand",
+      "funnel_stage": "unknown",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K8",
+      "keyword": "client onboarding checklist UK",
+      "intent": "informational",
+      "intent_reason": "Regional checklist candidate.",
+      "business_priority": 3,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "GB",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://guide.example/1",
+          "https://guide.example/2",
+          "https://guide.example/3",
+          "https://guide.example/4",
+          "https://guide.example/5",
+          "https://guide.example/6",
+          "https://guide.example/7",
+          "https://guide.example/8",
+          "https://guide.example/9",
+          "https://guide.example/10"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K9",
+      "keyword": " CLIENT ONBOARDING CHECKLIST ",
+      "intent": "informational",
+      "intent_reason": "Needs a repeatable sequence.",
+      "business_priority": 1,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://guide.example/1",
+          "https://guide.example/2",
+          "https://guide.example/3",
+          "https://guide.example/4",
+          "https://guide.example/5",
+          "https://guide.example/6",
+          "https://guide.example/7",
+          "https://guide.example/8",
+          "https://guide.example/9",
+          "https://guide.example/10"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    },
+    {
+      "id": "K10",
+      "keyword": "client handoff checklist",
+      "intent": "informational",
+      "intent_reason": "Transition an already-onboarded client to delivery.",
+      "business_priority": 2,
+      "source_id": "S1",
+      "serp": {
+        "source_id": "S2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://handoff.example/1",
+          "https://handoff.example/2",
+          "https://handoff.example/3",
+          "https://handoff.example/4",
+          "https://handoff.example/5",
+          "https://handoff.example/6",
+          "https://handoff.example/7",
+          "https://handoff.example/8",
+          "https://handoff.example/9",
+          "https://handoff.example/10"
+        ]
+      },
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "priority_evidence": {
+        "source_id": "S1",
+        "objective": "consideration",
+        "rationale": "Fictional editorial choice: evaluate fit of the workflow concept; supplied priority is a preference, not demand evidence"
+      }
+    }
+  ],
+  "business_facts": [
+    "MossNote is fictional; no real product claims have been verified.",
+    "The example product concept stores project notes and client checklists.",
+    "No integrations, pricing, security certifications or time savings are established."
+  ],
+  "business_context": {
+    "industry": {
+      "status": "supplied",
+      "value": "B2B design-studio workflow software",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "audience": {
+      "status": "supplied",
+      "value": "Small independent design studios onboarding a first retainer client",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "geography": {
+      "status": "supplied",
+      "value": "US",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "language": {
+      "status": "supplied",
+      "value": "en",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    "business_problem": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    }
+  }
+}

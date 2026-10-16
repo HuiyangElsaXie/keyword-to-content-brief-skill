@@ -1,0 +1,45 @@
+{
+  "repository": "https://github.com/AgriciDaniel/claude-seo",
+  "commit": "4b99de2f7de7e7d5247042e5fb5b4ea9368ef734",
+  "retrieved_utc": "2026-10-16",
+  "method": "Pinned GitHub connector raw response, checked against Git tree blob IDs; no upstream code executed",
+  "scope": "Complete seo-cluster module reference files and root MIT license, not whole plugin or runtime dependencies",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+      "git_blob_sha1": "94fac7465f1e76414fc59f9fd97cdfd2105e030d"
+    },
+    {
+      "path": "skills/seo-cluster/SKILL.md",
+      "bytes": 13111,
+      "sha256": "9041eee8c40d60394790f27486aca9a424cb8b26971715fff7f6b07f701ff773",
+      "git_blob_sha1": "ede3adc3392b35e271fd55fa7fa3f06d10f59790"
+    },
+    {
+      "path": "skills/seo-cluster/references/execution-workflow.md",
+      "bytes": 6455,
+      "sha256": "7e5e067689a2ebe82d0a949a4b9b9c6568fc283e31a6b6e928fbb7677438f0db",
+      "git_blob_sha1": "c98382fce3d11735fdff6cabf7c65850baeeecb9"
+    },
+    {
+      "path": "skills/seo-cluster/references/hub-spoke-architecture.md",
+      "bytes": 6291,
+      "sha256": "5553d9fd80145362073fde96c0c615df4ed9a000bf6f928a71641ec52e85c39b",
+      "git_blob_sha1": "adb07664f7eca7c60a837fce3cd2da1c450c656e"
+    },
+    {
+      "path": "skills/seo-cluster/references/serp-overlap-methodology.md",
+      "bytes": 4514,
+      "sha256": "a0c02dcd394a0cfe4636c02ce03da4ff58dc68b6f55ee0b3b9e36e10f20f7662",
+      "git_blob_sha1": "1c023225a6bafbd4ab68e64ea56bf0e3ebc0f6c7"
+    },
+    {
+      "path": "skills/seo-cluster/templates/cluster-map.html",
+      "bytes": 18882,
+      "sha256": "73d50e0bcab7855b4c50b182b46ad2f38965aa2fc854bc41de5acdd611a6d8c9",
+      "git_blob_sha1": "c657ddef12c57b475c02942176d59360d385afd2"
+    }
+  ]
+}

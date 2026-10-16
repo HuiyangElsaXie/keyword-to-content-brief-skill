@@ -1,0 +1,31 @@
+# Cluster scorecard
+
+- schema_version: &quot;cluster-scorecard-1.0&quot;
+- scope: &quot;planned architecture and generated briefs only&quot;
+- planned_pages: 1
+- actionable_planning_pages: 0
+- inventory_status: &quot;unknown&quot;
+- disposition_counts: {&quot;retain&quot;: 0, &quot;review_existing&quot;: 0, &quot;defer&quot;: 1, &quot;new_proposal&quot;: 0}
+- normalized_existing_destination_count: 0
+- execution_approved: false
+- review_only_count: 1
+- brief_scaffolds_generated: 1
+- briefs_with_supplied_editorial_direction: 0
+- briefs_generated: 1
+- articles_written: null
+- published_pages: null
+- implemented_links: null
+- image_coverage: null
+- measured_content_gaps: null
+- actual_coverage: null
+- planned_links: 0
+- planned_incoming: {}
+- planned_outgoing: {}
+- planned_orphans: \[\]
+- graph_scope: &quot;new_proposal pages only; retained, existing-review and deferred nodes have no automatic links&quot;
+- review_pending_unlinked: \[&quot;page-001&quot;\]
+- reachable_within_two_clicks: \[\]
+- all_reachable_within_two_clicks: null
+- duplicate_primary_keywords: 0
+- provisional_pages: 1
+- limitations: &quot;Unobserved article, publication, image and implemented-link metrics remain null. A brief is not a written article.&quot;

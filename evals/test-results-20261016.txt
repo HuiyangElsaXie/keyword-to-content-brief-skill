@@ -1,0 +1,30 @@
+test_capacity (test_plan.Checks.test_capacity) ... ok
+test_conflict (test_plan.Checks.test_conflict) ... ok
+test_sample (test_plan.Checks.test_sample) ... ok
+test_update_requires_existing_page (test_plan.Checks.test_update_requires_existing_page) ... ok
+test_boolean_capacity_is_not_integer (test_workflow.EvidenceWorkflowTests.test_boolean_capacity_is_not_integer) ... ok
+test_capacity_selects_priority_not_volume (test_workflow.EvidenceWorkflowTests.test_capacity_selects_priority_not_volume) ... ok
+test_case_groups_aliases_and_routes_inventory (test_workflow.EvidenceWorkflowTests.test_case_groups_aliases_and_routes_inventory) ... ok
+test_conflicting_duplicate_rejected (test_workflow.EvidenceWorkflowTests.test_conflicting_duplicate_rejected) ... ok
+test_context_mismatch_is_unknown_not_zero (test_workflow.EvidenceWorkflowTests.test_context_mismatch_is_unknown_not_zero) ... ok
+test_credentials_not_allowed_in_url (test_workflow.EvidenceWorkflowTests.test_credentials_not_allowed_in_url) ... ok
+test_distinct_intents_do_not_auto_merge (test_workflow.EvidenceWorkflowTests.test_distinct_intents_do_not_auto_merge) ... ok
+test_every_input_is_represented_once (test_workflow.EvidenceWorkflowTests.test_every_input_is_represented_once) ... ok
+test_incomplete_snapshot_does_not_use_threshold (test_workflow.EvidenceWorkflowTests.test_incomplete_snapshot_does_not_use_threshold) ... ok
+test_navigation_and_mixed_intent_are_deferred (test_workflow.EvidenceWorkflowTests.test_navigation_and_mixed_intent_are_deferred) ... ok
+test_new_path_does_not_collide_inventory (test_workflow.EvidenceWorkflowTests.test_new_path_does_not_collide_inventory) ... ok
+test_no_transitive_chain_merge (test_workflow.EvidenceWorkflowTests.test_no_transitive_chain_merge) ... ok
+test_normalizer_preserves_meaningful_query_and_path_case (test_workflow.EvidenceWorkflowTests.test_normalizer_preserves_meaningful_query_and_path_case) ... ok
+test_omitted_serp_is_normalized_to_missing (test_workflow.EvidenceWorkflowTests.test_omitted_serp_is_normalized_to_missing) ... ok
+test_output_refuses_to_overwrite_evidence (test_workflow.EvidenceWorkflowTests.test_output_refuses_to_overwrite_evidence) ... ok
+test_repeated_urls_do_not_inflate_overlap (test_workflow.EvidenceWorkflowTests.test_repeated_urls_do_not_inflate_overlap) ... ok
+test_reproducible (test_workflow.EvidenceWorkflowTests.test_reproducible) ... ok
+test_synthetic_cannot_be_marked_real (test_workflow.EvidenceWorkflowTests.test_synthetic_cannot_be_marked_real) ... ok
+test_threshold_boundaries (test_workflow.EvidenceWorkflowTests.test_threshold_boundaries) ... ok
+test_two_inventory_targets_require_review (test_workflow.EvidenceWorkflowTests.test_two_inventory_targets_require_review) ... ok
+test_unknown_source_fails (test_workflow.EvidenceWorkflowTests.test_unknown_source_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.064s
+
+OK

@@ -1,0 +1,111 @@
+{
+  "project": "Fictional template demonstration — replace before real use",
+  "audience": "Unknown — label only; complete business_context.audience",
+  "goal": "Organize supplied evidence; objective not yet supplied",
+  "fictional": true,
+  "monthly_new_page_capacity": 0,
+  "sources": [
+    {
+      "id": "S_TEMPLATE",
+      "kind": "synthetic",
+      "description": "Fictional placeholder keyword only. No real business, demand or observed search results."
+    }
+  ],
+  "existing_pages": [],
+  "keywords": [
+    {
+      "id": "K_TEMPLATE",
+      "keyword": "fictional example topic",
+      "intent": "mixed",
+      "intent_reason": "Fictional placeholder; reader job has not been established. Replace with supplied keyword evidence.",
+      "business_priority": null,
+      "source_id": "S_TEMPLATE",
+      "serp": null,
+      "brand_scope": "unknown",
+      "funnel_stage": "unknown",
+      "priority_evidence": null
+    }
+  ],
+  "business_context": {
+    "industry": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "audience": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "geography": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "language": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "brand_position": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "competitive_position": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "lifecycle": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "primary_objective": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "conversion_definition": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "resources": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "constraints": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "business_problem": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "objective_tradeoffs": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "website_stage": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "brand_lifecycle": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    },
+    "product_lifecycle": {
+      "status": "unknown",
+      "value": null,
+      "source_ids": []
+    }
+  }
+}

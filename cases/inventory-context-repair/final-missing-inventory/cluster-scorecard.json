@@ -1,0 +1,38 @@
+{
+  "actionable_planning_pages": 0,
+  "actual_coverage": null,
+  "all_reachable_within_two_clicks": null,
+  "articles_written": null,
+  "brief_scaffolds_generated": 1,
+  "briefs_generated": 1,
+  "briefs_with_supplied_editorial_direction": 0,
+  "disposition_counts": {
+    "defer": 1,
+    "new_proposal": 0,
+    "retain": 0,
+    "review_existing": 0
+  },
+  "duplicate_primary_keywords": 0,
+  "execution_approved": false,
+  "graph_scope": "new_proposal pages only; retained, existing-review and deferred nodes have no automatic links",
+  "image_coverage": null,
+  "implemented_links": null,
+  "inventory_status": "unknown",
+  "limitations": "Unobserved article, publication, image and implemented-link metrics remain null. A brief is not a written article.",
+  "measured_content_gaps": null,
+  "normalized_existing_destination_count": 0,
+  "planned_incoming": {},
+  "planned_links": 0,
+  "planned_orphans": [],
+  "planned_outgoing": {},
+  "planned_pages": 1,
+  "provisional_pages": 1,
+  "published_pages": null,
+  "reachable_within_two_clicks": [],
+  "review_only_count": 1,
+  "review_pending_unlinked": [
+    "page-001"
+  ],
+  "schema_version": "cluster-scorecard-1.0",
+  "scope": "planned architecture and generated briefs only"
+}

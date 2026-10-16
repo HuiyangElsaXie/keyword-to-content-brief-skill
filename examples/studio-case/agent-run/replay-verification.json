@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-10-16T01:49:52.380277+00:00",
+  "command": [
+    "python",
+    "scripts/plan_keywords.py",
+    "examples/studio-case/input.json",
+    "--out",
+    "examples/studio-case/agent-run/replay-after-fix"
+  ],
+  "exit_code": 0,
+  "stdout": "9 unique keywords; 1 new page(s); review pending\n",
+  "stderr": "",
+  "script_sha256_before": "8f4d8691287ad7e6ee26349936878cb6dd815c03b64c0d5b21f7b9e6792d5664",
+  "script_sha256_after": "8f4d8691287ad7e6ee26349936878cb6dd815c03b64c0d5b21f7b9e6792d5664",
+  "script_stable_during_replay": true,
+  "original_helper_output_matches_replay": {
+    "plan.json": true,
+    "plan.md": true,
+    "brief-scaffolds.md": true
+  }
+}

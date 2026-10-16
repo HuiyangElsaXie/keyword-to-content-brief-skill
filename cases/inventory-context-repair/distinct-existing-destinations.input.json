@@ -1,0 +1,69 @@
+{
+  "schema_version": "cluster-input-1.0",
+  "fictional": true,
+  "project": "Fictional professional portfolio",
+  "seed": "design research portfolio",
+  "sources": [
+    {
+      "id": "F1",
+      "kind": "synthetic",
+      "description": "Wholly fictional independent inventory and business-context regression evidence; reserved example domains."
+    }
+  ],
+  "business_context": {
+    "content_purpose": "recruitment_portfolio",
+    "audience": "Design research hiring teams",
+    "primary_objective": "Support evidence-led hiring review",
+    "brand_position": "Research methods demonstrated through documented projects",
+    "next_action": "Review the case-study evidence, then contact the candidate."
+  },
+  "candidates": [
+    {
+      "id": "R1",
+      "keyword": "design research portfolio",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "source_id": "F1",
+      "serp": null,
+      "volume": null,
+      "existing_page": {
+        "url": "https://portfolio.example/work/research",
+        "coverage": "sufficient",
+        "source_id": "F1",
+        "evidence_locator": "fictional supplied mapping"
+      }
+    },
+    {
+      "id": "R2",
+      "keyword": "research case study portfolio",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "source_id": "F1",
+      "serp": null,
+      "volume": null,
+      "existing_page": {
+        "url": "https://portfolio.example/work/interviews",
+        "coverage": "unknown",
+        "source_id": "F1",
+        "evidence_locator": "fictional supplied mapping"
+      }
+    }
+  ],
+  "existing_page_inventory": {
+    "status": "complete",
+    "source_id": "F1",
+    "evidence_locator": "fictional inventory review section 1",
+    "pages": [
+      {
+        "url": "https://portfolio.example/work/research",
+        "title": "Research work",
+        "terms": [
+          "design research portfolio",
+          "research case study portfolio"
+        ],
+        "source_id": "F1",
+        "evidence_locator": "fictional inventory page review"
+      }
+    ]
+  }
+}

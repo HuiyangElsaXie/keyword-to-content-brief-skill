@@ -1,0 +1,16 @@
+..........F....
+======================================================================
+FAIL: test_semantic_overlap_is_not_claimed_resolved_by_exact_keywords (test_inventory_context_truth.InventoryContextTruthTests.test_semantic_overlap_is_not_claimed_resolved_by_exact_keywords)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_inventory_context_truth.py", line 93, in test_semantic_overlap_is_not_claimed_resolved_by_exact_keywords
+    self.assertEqual(unresolved['status'], 'defer')
+AssertionError: 'review_existing' != 'defer'
+- review_existing
++ defer
+
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.253s
+
+FAILED (failures=1)

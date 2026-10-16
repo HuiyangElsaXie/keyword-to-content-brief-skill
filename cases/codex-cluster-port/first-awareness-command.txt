@@ -1,0 +1,1 @@
+Error: complete snapshots require collection_method=google_organic_top10; generic web discovery is exploratory

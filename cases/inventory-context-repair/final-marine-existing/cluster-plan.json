@@ -1,0 +1,275 @@
+{
+  "business_context": {
+    "audience": "Boat maintenance teams",
+    "next_action": "Review the pump maintenance checklist.",
+    "primary_objective": "Help users maintain bilge pumps"
+  },
+  "business_context_provenance": {},
+  "business_context_status": "self_reported_unverified",
+  "candidates": [
+    {
+      "existing_page": {
+        "coverage": "partial",
+        "evidence_locator": "fictional supplied mapping",
+        "source_id": "F1",
+        "url": "https://marine.example/guides/pumps"
+      },
+      "id": "M1",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "keyword": "bilge pump maintenance",
+      "normalized_keyword": "bilge pump maintenance",
+      "normalized_urls": [],
+      "serp": null,
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    },
+    {
+      "id": "M2",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "keyword": "bilge pump troubleshooting",
+      "normalized_keyword": "bilge pump troubleshooting",
+      "normalized_urls": [],
+      "serp": null,
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    }
+  ],
+  "clusters": [
+    {
+      "evidence_status": "provisional_intent_only",
+      "id": "topic-001",
+      "label": "bilge pump troubleshooting",
+      "page_ids": [
+        "page-002"
+      ]
+    }
+  ],
+  "content_purpose": "general",
+  "evidence_input": {
+    "business_context": {
+      "audience": "Boat maintenance teams",
+      "next_action": "Review the pump maintenance checklist.",
+      "primary_objective": "Help users maintain bilge pumps"
+    },
+    "candidates": [
+      {
+        "existing_page": {
+          "coverage": "partial",
+          "evidence_locator": "fictional supplied mapping",
+          "source_id": "F1",
+          "url": "https://marine.example/guides/pumps"
+        },
+        "id": "M1",
+        "intent": "commercial",
+        "intent_reason": "Evaluation of professional evidence, not product shopping.",
+        "keyword": "bilge pump maintenance",
+        "serp": null,
+        "source_id": "F1",
+        "volume": null
+      },
+      {
+        "id": "M2",
+        "intent": "commercial",
+        "intent_reason": "Evaluation of professional evidence, not product shopping.",
+        "keyword": "bilge pump troubleshooting",
+        "serp": null,
+        "source_id": "F1",
+        "volume": null
+      }
+    ],
+    "existing_page_inventory": {
+      "evidence_locator": "fictional inventory review section 1",
+      "pages": [
+        {
+          "evidence_locator": "fictional inventory page review",
+          "source_id": "F1",
+          "terms": [
+            "bilge pump maintenance"
+          ],
+          "title": "Bilge pump care",
+          "url": "https://marine.example/guides/pumps"
+        }
+      ],
+      "source_id": "F1",
+      "status": "complete"
+    },
+    "fictional": true,
+    "project": "Fictional marine equipment",
+    "schema_version": "cluster-input-1.0",
+    "seed": "bilge pump maintenance",
+    "sources": [
+      {
+        "description": "Wholly fictional independent inventory and business-context regression evidence; reserved example domains.",
+        "id": "F1",
+        "kind": "synthetic"
+      }
+    ]
+  },
+  "existing_page_inventory": {
+    "evidence_locator": "fictional inventory review section 1",
+    "pages": [
+      {
+        "evidence_locator": "fictional inventory page review",
+        "source_id": "F1",
+        "terms": [
+          "bilge pump maintenance"
+        ],
+        "title": "Bilge pump care",
+        "url": "https://marine.example/guides/pumps"
+      }
+    ],
+    "source_id": "F1",
+    "status": "complete"
+  },
+  "fictional": true,
+  "inventory_status": "complete",
+  "links": [],
+  "ordering": "Deterministic structural order, not demand or publication priority",
+  "pages": [
+    {
+      "candidate_ids": [
+        "M1"
+      ],
+      "candidate_next_actions": {
+        "M1": "Review the pump maintenance checklist."
+      },
+      "cluster_id": null,
+      "content_purpose": "general",
+      "conversion_definition": null,
+      "coverage_evidence": [
+        {
+          "candidate_id": "M1",
+          "coverage_evidence": [
+            {
+              "basis": "explicit_candidate_mapping",
+              "coverage": "partial",
+              "evidence_locator": "fictional supplied mapping",
+              "source_id": "F1",
+              "url": "https://marine.example/guides/pumps"
+            }
+          ],
+          "existing_urls": [
+            "https://marine.example/guides/pumps"
+          ],
+          "status": "review_existing"
+        }
+      ],
+      "editorial": {},
+      "evidence_status": "provisional_intent_only",
+      "existing_urls": [
+        "https://marine.example/guides/pumps"
+      ],
+      "id": "page-001",
+      "intent": "commercial",
+      "next_action": "Review the pump maintenance checklist.",
+      "path_status": "existing_destination_review",
+      "primary_keyword": "bilge pump maintenance",
+      "proposed_path": "https://marine.example/guides/pumps",
+      "rationale": "Objective: Help users maintain bilge pumps. Positioning: unknown; obtain a defensible positioning statement. Validate reader job and supporting claims before commissioning.",
+      "role": "existing_review",
+      "secondary_keywords": [],
+      "status": "review_existing",
+      "template": "comparison",
+      "title": "bilge pump maintenance",
+      "volume": null,
+      "word_target": null
+    },
+    {
+      "candidate_ids": [
+        "M2"
+      ],
+      "candidate_next_actions": {
+        "M2": "Review the pump maintenance checklist."
+      },
+      "cluster_id": "topic-001",
+      "content_purpose": "general",
+      "conversion_definition": null,
+      "coverage_evidence": [
+        {
+          "candidate_id": "M2",
+          "coverage_evidence": [
+            {
+              "basis": "gap_or_business_rationale_missing_or_intent_unresolved"
+            }
+          ],
+          "existing_urls": [],
+          "status": "defer"
+        }
+      ],
+      "editorial": {},
+      "evidence_status": "provisional_intent_only",
+      "existing_urls": [],
+      "id": "page-002",
+      "intent": "commercial",
+      "next_action": "Review the pump maintenance checklist.",
+      "path_status": "no_new_url_authorized",
+      "primary_keyword": "bilge pump troubleshooting",
+      "proposed_path": null,
+      "rationale": "Objective: Help users maintain bilge pumps. Positioning: unknown; obtain a defensible positioning statement. Validate reader job and supporting claims before commissioning.",
+      "role": "deferred",
+      "secondary_keywords": [],
+      "status": "defer",
+      "template": "comparison",
+      "title": "bilge pump troubleshooting",
+      "volume": null,
+      "word_target": null
+    }
+  ],
+  "pairs": [
+    {
+      "a": "M1",
+      "b": "M2",
+      "relation": "missing_or_noncomparable_top10",
+      "shared_top10": null
+    }
+  ],
+  "pillar_id": null,
+  "pillar_selection": "Seed page if present; otherwise highest count of measured topic connections, then stable ID. Editorial heuristic, not demand ranking.",
+  "project": "Fictional marine equipment",
+  "publication_status": "not_executed",
+  "schema_version": "cluster-plan-1.0",
+  "seed": "bilge pump maintenance",
+  "serp_matrix": {
+    "candidate_ids": [
+      "M1",
+      "M2"
+    ],
+    "scores": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ]
+  },
+  "settings": {
+    "candidate_target_max": 50,
+    "candidate_target_min": 30,
+    "cross_link_limit": 1,
+    "pillar_words": [
+      2500,
+      4000
+    ],
+    "sibling_link_limit": 3,
+    "spoke_words": [
+      1200,
+      1800
+    ]
+  },
+  "warnings": [
+    "Planning heuristics, not Google rules or publication approval. No demand, urgency, ranking or traffic lift is inferred.",
+    "Source records are supplied provenance, not independent verification. Analyst must confirm organic ranking order, freshness and authenticity.",
+    "Word ranges and link counts are adjustable editorial heuristics. Hub/spoke links require relevance review.",
+    "Existing-page mappings and inventory coverage are supplied assertions, not independent audits. Lexical similarity is a review hint only.",
+    "No new destination is authorized. A new_proposal requires a supplied complete inventory and cited gap/business rationale, and still requires editorial approval.",
+    "Candidate count outside configured discovery target; do not fabricate candidates to meet a quota.",
+    "Missing/exploratory/incomplete evidence: intent-only provisional folders do not establish SERP clusters or merge authority."
+  ]
+}

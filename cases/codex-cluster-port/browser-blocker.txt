@@ -1,0 +1,4 @@
+2026-10-16 03:25 UTC: attempted node cases/codex-cluster-port/check_map.cjs using existing Playwright and /usr/bin/chromium. Script blocks all network requests and sets local generated HTML as content.
+Browser did not start; no page interaction or screenshot was produced.
+Exact blocker: FATAL:chrome/browser/process_singleton_posix.cc:297 Check failed: . socket() failed: Operation not permitted (1).
+No escalation, alternate browser route, installation, or security-setting change attempted. Browser visual/click QA remains unverified.

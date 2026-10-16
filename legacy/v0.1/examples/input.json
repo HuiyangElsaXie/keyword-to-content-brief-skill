@@ -1,0 +1,32 @@
+{
+  "fictional": true,
+  "business": "MossNote Demo",
+  "monthly_new_page_capacity": 1,
+  "keywords": [
+    {
+      "keyword": "meeting notes template",
+      "intent": "template",
+      "evidence": "synthetic",
+      "target": "/templates/meeting-notes",
+      "decision": "update"
+    },
+    {
+      "keyword": "meeting action items template",
+      "intent": "template",
+      "evidence": "synthetic",
+      "target": "/templates/action-items",
+      "decision": "new"
+    },
+    {
+      "keyword": "meeting notes vs minutes",
+      "intent": "comparison",
+      "evidence": "synthetic",
+      "target": null,
+      "decision": "defer"
+    }
+  ],
+  "existing_pages": [
+    "/templates/meeting-notes"
+  ],
+  "volume_source": null
+}

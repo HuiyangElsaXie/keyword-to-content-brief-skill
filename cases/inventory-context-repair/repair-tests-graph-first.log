@@ -1,0 +1,39 @@
+...F.F..............
+======================================================================
+FAIL: test_distinct_review_destinations_never_receive_automatic_graph_links (test_inventory_context_truth.InventoryContextTruthTests.test_distinct_review_destinations_never_receive_automatic_graph_links)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_inventory_context_truth.py", line 136, in test_distinct_review_destinations_never_receive_automatic_graph_links
+    self.assertEqual(p['links'], [])
+AssertionError: Lists differ: [{'source': 'editorial_architecture', 'fro[371 chars]ce'}] != []
+
+First list contains 2 additional elements.
+First extra element 0:
+{'source': 'editorial_architecture', 'from': 'page-001', 'to': 'page-002', 'type': 'hub_spoke', 'anchor': 'research case study portfolio', 'evidence_basis': 'proposed editorial navigation; validate relevance'}
+
++ []
+- [{'anchor': 'research case study portfolio',
+-   'evidence_basis': 'proposed editorial navigation; validate relevance',
+-   'from': 'page-001',
+-   'source': 'editorial_architecture',
+-   'to': 'page-002',
+-   'type': 'hub_spoke'},
+-  {'anchor': 'design research portfolio',
+-   'evidence_basis': 'proposed editorial navigation; validate relevance',
+-   'from': 'page-002',
+-   'source': 'editorial_architecture',
+-   'to': 'page-001',
+-   'type': 'hub_spoke'}]
+
+======================================================================
+FAIL: test_existing_review_without_metadata_does_not_suggest_replacement (test_inventory_context_truth.InventoryContextTruthTests.test_existing_review_without_metadata_does_not_suggest_replacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/100764731f7e/marketing-portfolio-drafts-20261016/keyword-to-content-brief/tests/test_inventory_context_truth.py", line 146, in test_existing_review_without_metadata_does_not_suggest_replacement
+    self.assertNotIn('Explore design research portfolio for', text)
+AssertionError: 'Explore design research portfolio for' unexpectedly found in '# design research portfolio\n\nPlanning scaffold pending agent/editor completion. Not a commissioned or written article.\n\n- Primary keyword: design research portfolio\n- Secondary keywords: research case study portfolio\n- Template: recruiter-evidence-review\n- Role: pillar\n- Evidence: provisional_intent_only\n- Status: retain\n- Word target (adjustable heuristic): Review only; no article target\n- Audience: Design research hiring teams\n- Objective: Support evidence-led hiring review\n- Positioning: Research methods demonstrated through documented projects\n- Conversion/next step: Review the case-study evidence, then contact the candidate.\n- Conversion definition (supplied): Not supplied\n- Existing destinations: https://portfolio.example/work/research\n- Business context status: self_reported_unverified\n- Meta description draft: Explore design research portfolio for Design research hiring teams. Review practical considerations and decide your next step.\n- Candidate next actions (preserved supplied direction): {&quot;R1&quot;: &quot;Review the case-study evidence, then contact the candidate.&quot;, &quot;R2&quot;: &quot;Review the case-study evidence, then contact the candidate.&quot;}\n\n## Suggested structure (generic scaffold; replace with researched outline)\n1. Identify the role and reader question\n2. Present relevant work evidence and personal contribution\n3. Explain decisions, constraints and collaborators\n4. Distinguish observed outcomes from planned validation\n5. Offer the supplied recruitment next step\n\n## Key points and differentiation (scaffold)\n- Objective: Support evidence-led hiring review. Positioning: Research methods demonstrated through documented projects. Validate reader job and supporting claims before commissioning.\n- Support claims with primary sources and first-hand examples. Do not invent credentials, outcomes, statistics or urgency.\n- Review competing pages before claiming a content gap; URLs alone do not prove one.\n\n## Outgoing internal links (proposed)\n- None proposed; relevance review required.\n\n## Incoming internal links (proposed)\n- None proposed; relevance review required.\n\n## Supplied competing result URLs; not content-audited\n- No SERP URLs supplied; collect comparable Google organic top ten.\n\n## Existing-page coverage and disposition evidence (supplied; verify)\n- {&quot;candidate_id&quot;: &quot;R1&quot;, &quot;status&quot;: &quot;retain&quot;, &quot;existing_urls&quot;: \\[&quot;https://portfolio.example/work/research&quot;\\], &quot;coverage_evidence&quot;: \\[{&quot;url&quot;: &quot;https://portfolio.example/work/research&quot;, &quot;coverage&quot;: &quot;sufficient&quot;, &quot;source_id&quot;: &quot;F1&quot;, &quot;evidence_locator&quot;: &quot;fictional supplied mapping&quot;, &quot;basis&quot;: &quot;explicit_candidate_mapping&quot;}\\]}\n- {&quot;candidate_id&quot;: &quot;R2&quot;, &quot;status&quot;: &quot;retain&quot;, &quot;existing_urls&quot;: \\[&quot;https://portfolio.example/work/research&quot;\\], &quot;coverage_evidence&quot;: \\[{&quot;url&quot;: &quot;https://portfolio.example/work/research&quot;, &quot;coverage&quot;: &quot;sufficient&quot;, &quot;source_id&quot;: &quot;F1&quot;, &quot;evidence_locator&quot;: &quot;fictional supplied mapping&quot;, &quot;basis&quot;: &quot;explicit_candidate_mapping&quot;}\\]}\n\n## Acceptance checks\n- Resolve provisional intent and evidence gaps\n- Verify title, claims, positioning and intended destination\n- Review actual copy and implemented links after writing\n'
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.188s
+
+FAILED (failures=2)

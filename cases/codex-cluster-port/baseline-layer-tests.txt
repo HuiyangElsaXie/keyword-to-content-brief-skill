@@ -1,0 +1,14 @@
+test_context_dimensions_are_each_incomparable (test_cluster_port_truth.ClusterEvidenceTruthTests.test_context_dimensions_are_each_incomparable) ... ok
+test_exact_duplicate_preserves_alias_id (test_cluster_port_truth.ClusterEvidenceTruthTests.test_exact_duplicate_preserves_alias_id) ... ok
+test_missing_snapshot_prevents_merge_and_commission (test_cluster_port_truth.ClusterEvidenceTruthTests.test_missing_snapshot_prevents_merge_and_commission) ... ok
+test_navigation_never_commissions_article (test_cluster_port_truth.ClusterEvidenceTruthTests.test_navigation_never_commissions_article) ... ok
+test_repeated_url_is_not_ten_results (test_cluster_port_truth.ClusterEvidenceTruthTests.test_repeated_url_is_not_ten_results) ... ok
+test_same_keywords_really_are_same (test_cluster_port_truth.ClusterEvidenceTruthTests.test_same_keywords_really_are_same) ... ok
+test_source_provenance_required (test_cluster_port_truth.ClusterEvidenceTruthTests.test_source_provenance_required) ... ok
+test_synthetic_source_cannot_be_marked_real (test_cluster_port_truth.ClusterEvidenceTruthTests.test_synthetic_source_cannot_be_marked_real) ... ok
+test_transitive_overlap_never_creates_three_way_merge (test_cluster_port_truth.ClusterEvidenceTruthTests.test_transitive_overlap_never_creates_three_way_merge) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.016s
+
+OK

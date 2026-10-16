@@ -1,0 +1,35 @@
+{
+  "schema_version": "cluster-input-1.0",
+  "fictional": true,
+  "project": "Fictional marine equipment",
+  "seed": "bilge pump installation guide",
+  "sources": [
+    {
+      "id": "F1",
+      "kind": "synthetic",
+      "description": "Wholly fictional independent inventory and business-context regression evidence; reserved example domains."
+    }
+  ],
+  "business_context": {
+    "audience": "Boat maintenance teams",
+    "primary_objective": "Help users maintain bilge pumps",
+    "next_action": "Review the pump maintenance checklist."
+  },
+  "candidates": [
+    {
+      "id": "N1",
+      "keyword": "bilge pump installation guide",
+      "intent": "commercial",
+      "intent_reason": "Evaluation of professional evidence, not product shopping.",
+      "source_id": "F1",
+      "serp": null,
+      "volume": null,
+      "new_page_evidence": {
+        "gap": "A reviewed installation guide is absent from the fictional current inventory.",
+        "business_rationale": "Maintenance teams also need safe installation preparation.",
+        "source_id": "F1",
+        "evidence_locator": "fictional audit section 2"
+      }
+    }
+  ]
+}

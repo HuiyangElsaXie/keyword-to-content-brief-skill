@@ -1,0 +1,21 @@
+# Cluster scorecard
+
+- schema_version: &quot;cluster-scorecard-1.0&quot;
+- scope: &quot;planned architecture and generated briefs only&quot;
+- planned_pages: 4
+- briefs_generated: 4
+- articles_written: null
+- published_pages: null
+- implemented_links: null
+- image_coverage: null
+- measured_content_gaps: null
+- actual_coverage: null
+- planned_links: 6
+- planned_incoming: {&quot;page-002&quot;: 1, &quot;page-004&quot;: 1, &quot;page-003&quot;: 1, &quot;page-001&quot;: 3}
+- planned_outgoing: {&quot;page-002&quot;: 1, &quot;page-004&quot;: 1, &quot;page-003&quot;: 1, &quot;page-001&quot;: 3}
+- planned_orphans: \[\]
+- reachable_within_two_clicks: \[&quot;page-001&quot;, &quot;page-002&quot;, &quot;page-003&quot;, &quot;page-004&quot;\]
+- all_reachable_within_two_clicks: true
+- duplicate_primary_keywords: 0
+- provisional_pages: 2
+- limitations: &quot;Unobserved article, publication, image and implemented-link metrics remain null. A brief is not a written article.&quot;

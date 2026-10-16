@@ -1,0 +1,115 @@
+{
+  "mode": "tailored",
+  "missing": [],
+  "assumptions": [
+    "brand_position",
+    "competitive_position"
+  ],
+  "new_pages": 2,
+  "decisions": [
+    {
+      "group_id": "G1",
+      "input_ids": [
+        "K1",
+        "K2"
+      ],
+      "keywords": [
+        "client onboarding checklist",
+        "new client onboarding checklist"
+      ],
+      "primary_keyword": "client onboarding checklist",
+      "intent": "informational",
+      "business_priority": 1,
+      "supplied_priority": 1,
+      "priority_gate": null,
+      "brand_scope": "nonbrand",
+      "funnel_stage": "awareness",
+      "decision": "new",
+      "target": "/guides/client-onboarding-checklist",
+      "reason": "complete supplied snapshot; selected by business priority within capacity; editorial approval pending",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G2",
+      "input_ids": [
+        "K4"
+      ],
+      "keywords": [
+        "client onboarding software comparison"
+      ],
+      "primary_keyword": "client onboarding software comparison",
+      "intent": "commercial",
+      "business_priority": 1,
+      "supplied_priority": 1,
+      "priority_gate": null,
+      "brand_scope": "nonbrand",
+      "funnel_stage": "consideration",
+      "decision": "new",
+      "target": "/guides/client-onboarding-software-comparison",
+      "reason": "complete supplied snapshot; selected by business priority within capacity; editorial approval pending",
+      "evidence_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": true,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G3",
+      "input_ids": [
+        "K6"
+      ],
+      "keywords": [
+        "mossnote login"
+      ],
+      "primary_keyword": "mossnote login",
+      "intent": "navigational",
+      "business_priority": 1,
+      "supplied_priority": 1,
+      "priority_gate": null,
+      "brand_scope": "brand",
+      "funnel_stage": "navigation",
+      "decision": "review_existing",
+      "target": "/login",
+      "reason": "navigational: verify the intended known entity and destination in supplied inventory; no article commission",
+      "evidence_source_ids": [
+        "S1"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": false,
+      "review_status": "needs_human_review"
+    },
+    {
+      "group_id": "G4",
+      "input_ids": [
+        "K7"
+      ],
+      "keywords": [
+        "client onboarding automation"
+      ],
+      "primary_keyword": "client onboarding automation",
+      "intent": "mixed",
+      "business_priority": null,
+      "supplied_priority": 2,
+      "priority_gate": "brand/nonbrand role and funnel stage require clarification",
+      "brand_scope": "nonbrand",
+      "funnel_stage": "unknown",
+      "decision": "defer",
+      "target": null,
+      "reason": "mixed intent: analyst must resolve reader job before commissioning",
+      "evidence_source_ids": [
+        "S1"
+      ],
+      "evidence_basis": "synthetic demonstration",
+      "snapshot_complete": false,
+      "review_status": "needs_human_review"
+    }
+  ]
+}
