@@ -1,0 +1,22 @@
+{
+  "case": "conflict-no-tools",
+  "repository": "keyword-to-content-brief-skill",
+  "baseline_commit": "b52fc3356b5d556920fb8ba93aa99266fa455e24",
+  "tested_skill_sha256": "cb0b5d1e749661ccf63b2d1a35a5acb4f9ae4a271e5bb0e99ad4aaac8bd0b64b",
+  "skill_entry": "skills/keyword-to-content-brief/SKILL.md",
+  "synthetic": true,
+  "model_requested": "gpt-6.1-sol",
+  "request": "Prepare a content plan and brief from these supplied notes only. For this task do not run business scripts, browse, or query external data; local file reading and saving the answer are allowed.",
+  "input_files": [
+    "supplied-input.json",
+    "brief.md"
+  ],
+  "tools": {
+    "harness_read_and_write": "Allowed only in this case folder plus read-only skill/repository references",
+    "offline_python_for_business_task": false,
+    "business_network_search_browsing": false,
+    "paid_calls_or_new_accounts": false,
+    "site_mutations_or_git": false
+  },
+  "execution_note": "Business tool limits are scenario permissions on a tool-capable host, not a claim that host tools do not exist. A separate fresh Sol 6.1 agent generates the deliverable; static checks are recorded separately."
+}

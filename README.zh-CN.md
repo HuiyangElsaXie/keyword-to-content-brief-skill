@@ -4,6 +4,8 @@
 
 ## 一分钟开始
 
+保留完整仓库并明确提供嵌套 SKILL.md 入口；仅复制技能子目录会遗漏根目录脚本、文档、案例及来源资源。自动发现／安装规则取决于宿主。
+
 [现行规则输出计划](cases/inventory-context-repair/final-marine-existing/cluster-plan.md) · [现行 brief 骨架，待编辑完善](cases/inventory-context-repair/final-marine-existing/cluster-briefs/page-001.md) · [早期完整编辑报告，历史示例](examples/intake-case/final-report.md) · [现行行为复核](cases/inventory-context-repair/REVIEW.md)
 
 链接示例均使用合成输入。历史完整报告用于理解编辑交接，不代表当前 CLI 决策或真实需求。

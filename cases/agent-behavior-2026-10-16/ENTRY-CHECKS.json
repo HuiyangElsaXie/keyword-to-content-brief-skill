@@ -1,0 +1,258 @@
+{
+  "recorded_at_utc": "2026-10-16T21:39:55.827488+00:00",
+  "repositories": [
+    {
+      "name": "customer-needs-research-skill",
+      "baseline_commit": "bf60c87bfbb1d00a27c9a16f4d292d3495d6d31e",
+      "entry": "SKILL.md",
+      "skill_sha256": "dc1f3f2cc31d1189178148667a8f0629bc6c44b7c76f1fb959d99fa8a95c0b64",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "README.md",
+        "SKILL.md"
+      ],
+      "changed_local_links_checked": 7,
+      "errors": [],
+      "complete_layout_entry_links": 2,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "competitor-market-analysis-skill",
+      "baseline_commit": "01ac05003da8f63d2b2574c63a241df03bf3a34a",
+      "entry": "SKILL.md",
+      "skill_sha256": "cc266e95bad1e548dca84e3d8cdcbc04658fb324d1952d00e3fb8d4bcf39abd8",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "SKILL.md"
+      ],
+      "changed_local_links_checked": 2,
+      "errors": [],
+      "complete_layout_entry_links": 2,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "marketing-campaign-planner-skill",
+      "baseline_commit": "061c675dd6ad106322499f485a27d376f759b3fe",
+      "entry": "SKILL.md",
+      "skill_sha256": "4cb42f1c9afa33332dc76d795e26e610d14c5674cf5392f21873fd93e8314eaf",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [],
+      "changed_local_links_checked": 0,
+      "errors": [],
+      "complete_layout_entry_links": 3,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "brand-messaging-assets-skill",
+      "baseline_commit": "82c95acaefc1d3756c9b9584ec6445e40db982a1",
+      "entry": "SKILL.md",
+      "skill_sha256": "f6651ce40d6b655760e2fde79f891c916ef6fc768a6fd2c220a3d60f4eeb00a4",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [],
+      "changed_local_links_checked": 0,
+      "errors": [],
+      "complete_layout_entry_links": 3,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "website-journey-planner-skill",
+      "baseline_commit": "b1f26fb77f551fe2a1d14233bf885f19c09ab8c5",
+      "entry": "SKILL.md",
+      "skill_sha256": "ab2074f0d72717d5083f25e455a019cae782f02636b6e5109b9e76337fcebc88",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "ABOUT.md",
+        "SKILL.md"
+      ],
+      "changed_local_links_checked": 5,
+      "errors": [],
+      "complete_layout_entry_links": 5,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "ecommerce-content-optimizer-skill",
+      "baseline_commit": "1cdc95297b67c0a71fa15a1519d665afc63f027d",
+      "entry": "SKILL.md",
+      "skill_sha256": "f5eff545c5ac32db2f0067ed1d3df2eb3fdd24dfcc0a8c125b6fc63f174c9e3d",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "ABOUT.md",
+        "SKILL.md"
+      ],
+      "changed_local_links_checked": 5,
+      "errors": [],
+      "complete_layout_entry_links": 5,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "ai-content-workflow-designer-skill",
+      "baseline_commit": "b67dd399e2384d97d82ef2170e8bd7066a516a10",
+      "entry": "SKILL.md",
+      "skill_sha256": "c0544f3a4f83d9d578d3539e81365f5031ed6cf4a56045e56cd571dc969c87d7",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [],
+      "changed_local_links_checked": 0,
+      "errors": [],
+      "complete_layout_entry_links": 0,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "content-qa-test-designer-skill",
+      "baseline_commit": "6f5797ee8964ef9bb2e55e959872b52d4799b428",
+      "entry": "SKILL.md",
+      "skill_sha256": "3b671a060b02ba0525aea3f855783f951231433ee9426b20e34a3ec0e2d963da",
+      "frontmatter_command": "python -X utf8 quick_validate.py .",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "ABOUT.md"
+      ],
+      "changed_local_links_checked": 0,
+      "errors": [],
+      "complete_layout_entry_links": 0,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": null,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "keyword-to-content-brief-skill",
+      "baseline_commit": "b52fc3356b5d556920fb8ba93aa99266fa455e24",
+      "entry": "skills/keyword-to-content-brief/SKILL.md",
+      "skill_sha256": "69100194812b78f40033d749800bbc7d295d2cff3094a5194ce762ee0bebad6c",
+      "frontmatter_command": "python -X utf8 quick_validate.py skills/keyword-to-content-brief",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "README.md",
+        "README.zh-CN.md",
+        "skills/keyword-to-content-brief/SKILL.md"
+      ],
+      "changed_local_links_checked": 93,
+      "errors": [],
+      "complete_layout_entry_links": 14,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": 9,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "seo-fix-priority-skill",
+      "baseline_commit": "774627bafadc00122fa5d546dc6bd91863d141bd",
+      "entry": "skills/seo-fix-priority-workflow/SKILL.md",
+      "skill_sha256": "813a77a87f0a257ffcfa89c8d0c5a13503439cbb702dfb24a9180c63faa780ac",
+      "frontmatter_command": "python -X utf8 quick_validate.py skills/seo-fix-priority-workflow",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "README.md",
+        "README.zh-CN.md",
+        "examples/README.md",
+        "skills/seo-fix-priority-workflow/SKILL.md"
+      ],
+      "changed_local_links_checked": 83,
+      "errors": [],
+      "complete_layout_entry_links": 13,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": 8,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "social-media-post-writer-skill",
+      "baseline_commit": "631384c77cc80ccd999bac481fd6a23a1d02cf6f",
+      "entry": "skills/social-media-post-writer/SKILL.md",
+      "skill_sha256": "adcbf633ff29f6405634fbd38e23676a37685265c9c342735fc6e74c503a5c60",
+      "frontmatter_command": "python -X utf8 quick_validate.py skills/social-media-post-writer",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "README.md",
+        "skills/social-media-post-writer/SKILL.md"
+      ],
+      "changed_local_links_checked": 23,
+      "errors": [],
+      "complete_layout_entry_links": 10,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": 1,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "website-blog-writer-enzh-skill",
+      "baseline_commit": "2200cf70c652c6cf70d8f8f6ce6c4ec7b48b5c91",
+      "entry": "skills/website-blog-writer-enzh/SKILL.md",
+      "skill_sha256": "a296427c5fea74d8842823b6419f4aaa8cb39bc61e49686bce5070bbfd5e7b5d",
+      "frontmatter_command": "python -X utf8 quick_validate.py skills/website-blog-writer-enzh",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "README.md",
+        "skills/website-blog-writer-enzh/SKILL.md"
+      ],
+      "changed_local_links_checked": 26,
+      "errors": [],
+      "complete_layout_entry_links": 3,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": 1,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    },
+    {
+      "name": "rednote-writer-skill",
+      "baseline_commit": "994196032a5e2ef48158aac64280cf530c26bb6c",
+      "entry": "skills/rednote-writer/SKILL.md",
+      "skill_sha256": "94ddf4e28ccdcb3c155c082c0b752886fd9c2fb8bea5f877aa8f6ca9a23136b6",
+      "frontmatter_command": "python -X utf8 quick_validate.py skills/rednote-writer",
+      "frontmatter_exit_code": 0,
+      "frontmatter_stdout": "Skill is valid!\r\n",
+      "frontmatter_stderr": "",
+      "changed_markdown": [
+        "README.md",
+        "skills/rednote-writer/SKILL.md"
+      ],
+      "changed_local_links_checked": 14,
+      "errors": [],
+      "complete_layout_entry_links": 3,
+      "complete_layout_errors": [],
+      "child_only_missing_root_links": 1,
+      "installation_verification": "Full repository copy and relative-link resolution; no automatic-host-install compatibility claim."
+    }
+  ],
+  "scope": "Filesystem/link and frontmatter checks only. Complete-repository copy simulation, not host auto-discovery or agent behavior."
+}

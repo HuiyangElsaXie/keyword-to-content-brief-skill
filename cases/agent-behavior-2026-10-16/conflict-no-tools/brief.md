@@ -1,0 +1,2 @@
+# Synthetic conflicting brief
+All data are invented. Note A says the primary objective is awareness and current guide coverage is sufficient. Note B, undated and with no precedence, requests conversion-led new product pages and says coverage is unknown. There is no confirmed product capability or working sales destination. The two search-result fixtures use different markets/dates. No real live evidence is available.

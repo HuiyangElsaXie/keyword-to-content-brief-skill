@@ -1,0 +1,387 @@
+{
+  "business_context": {
+    "audience": "Solo tutors coordinating with parents",
+    "brand_position": "Unverified concept for organizing change instructions",
+    "constraints": "No product integrations, price, demand or time-saving claims",
+    "content_purpose": "educational",
+    "geography": "US",
+    "industry": "Tutor scheduling guides",
+    "language": "en",
+    "next_action": "Read the supplied schedule-change checklist",
+    "positioning": "Unverified concept for organizing change instructions",
+    "primary_objective": "awareness",
+    "resources": "One content review this week, no new pages",
+    "site_stage": "existing_site"
+  },
+  "business_context_provenance": {},
+  "business_context_status": "self_reported_unverified",
+  "candidates": [
+    {
+      "existing_page": {
+        "coverage": "sufficient",
+        "evidence_locator": "brief.md F1: excerpt explicitly addresses both candidate queries; owner considers sufficient",
+        "source_id": "F1",
+        "url": "https://cedarlesson.example/guides/changes"
+      },
+      "existing_urls": [
+        "https://cedarlesson.example/guides/changes"
+      ],
+      "id": "K1",
+      "intent": "informational",
+      "intent_reason": "Reader needs a sequence for agreeing a changed lesson time.",
+      "keyword": "tutor lesson change checklist",
+      "normalized_keyword": "tutor lesson change checklist",
+      "normalized_urls": [
+        "https://tutor-fixture.example/1",
+        "https://tutor-fixture.example/2",
+        "https://tutor-fixture.example/3",
+        "https://tutor-fixture.example/4",
+        "https://tutor-fixture.example/5",
+        "https://tutor-fixture.example/6",
+        "https://tutor-fixture.example/7",
+        "https://tutor-fixture.example/8",
+        "https://tutor-fixture.example/9",
+        "https://tutor-fixture.example/10"
+      ],
+      "serp": {
+        "date": "2026-10-16",
+        "device": "desktop",
+        "language": "en",
+        "market": "US",
+        "organic_urls": [
+          "https://tutor-fixture.example/1",
+          "https://tutor-fixture.example/2",
+          "https://tutor-fixture.example/3",
+          "https://tutor-fixture.example/4",
+          "https://tutor-fixture.example/5",
+          "https://tutor-fixture.example/6",
+          "https://tutor-fixture.example/7",
+          "https://tutor-fixture.example/8",
+          "https://tutor-fixture.example/9",
+          "https://tutor-fixture.example/10"
+        ],
+        "source_id": "F2",
+        "status": "unknown"
+      },
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    },
+    {
+      "existing_page": {
+        "coverage": "sufficient",
+        "evidence_locator": "brief.md F1: excerpt explicitly addresses both candidate queries; owner considers sufficient",
+        "source_id": "F1",
+        "url": "https://cedarlesson.example/guides/changes"
+      },
+      "existing_urls": [
+        "https://cedarlesson.example/guides/changes"
+      ],
+      "id": "K2",
+      "intent": "informational",
+      "intent_reason": "Reader wants confirmation guidance; supplied coverage assessment applies.",
+      "keyword": "confirm changed lesson time",
+      "normalized_keyword": "confirm changed lesson time",
+      "normalized_urls": [
+        "https://tutor-fixture.example/1",
+        "https://tutor-fixture.example/2",
+        "https://tutor-fixture.example/3",
+        "https://tutor-fixture.example/4",
+        "https://tutor-fixture.example/5",
+        "https://tutor-fixture.example/6",
+        "https://tutor-fixture.example/7",
+        "https://tutor-fixture.example/8",
+        "https://tutor-fixture.example/11",
+        "https://tutor-fixture.example/12"
+      ],
+      "serp": {
+        "date": "2026-10-16",
+        "device": "desktop",
+        "language": "en",
+        "market": "US",
+        "organic_urls": [
+          "https://tutor-fixture.example/1",
+          "https://tutor-fixture.example/2",
+          "https://tutor-fixture.example/3",
+          "https://tutor-fixture.example/4",
+          "https://tutor-fixture.example/5",
+          "https://tutor-fixture.example/6",
+          "https://tutor-fixture.example/7",
+          "https://tutor-fixture.example/8",
+          "https://tutor-fixture.example/11",
+          "https://tutor-fixture.example/12"
+        ],
+        "source_id": "F2",
+        "status": "unknown"
+      },
+      "snapshot_eligible": false,
+      "source_id": "F1",
+      "volume": null
+    }
+  ],
+  "clusters": [],
+  "content_purpose": "educational",
+  "evidence_input": {
+    "business_context": {
+      "audience": "Solo tutors coordinating with parents",
+      "brand_position": "Unverified concept for organizing change instructions",
+      "constraints": "No product integrations, price, demand or time-saving claims",
+      "content_purpose": "educational",
+      "geography": "US",
+      "industry": "Tutor scheduling guides",
+      "language": "en",
+      "next_action": "Read the supplied schedule-change checklist",
+      "positioning": "Unverified concept for organizing change instructions",
+      "primary_objective": "awareness",
+      "resources": "One content review this week, no new pages",
+      "site_stage": "existing_site"
+    },
+    "candidates": [
+      {
+        "existing_page": {
+          "coverage": "sufficient",
+          "evidence_locator": "brief.md F1: excerpt explicitly addresses both candidate queries; owner considers sufficient",
+          "source_id": "F1",
+          "url": "https://cedarlesson.example/guides/changes"
+        },
+        "existing_urls": [
+          "https://cedarlesson.example/guides/changes"
+        ],
+        "id": "K1",
+        "intent": "informational",
+        "intent_reason": "Reader needs a sequence for agreeing a changed lesson time.",
+        "keyword": "tutor lesson change checklist",
+        "serp": {
+          "date": "2026-10-16",
+          "device": "desktop",
+          "language": "en",
+          "market": "US",
+          "organic_urls": [
+            "https://tutor-fixture.example/1",
+            "https://tutor-fixture.example/2",
+            "https://tutor-fixture.example/3",
+            "https://tutor-fixture.example/4",
+            "https://tutor-fixture.example/5",
+            "https://tutor-fixture.example/6",
+            "https://tutor-fixture.example/7",
+            "https://tutor-fixture.example/8",
+            "https://tutor-fixture.example/9",
+            "https://tutor-fixture.example/10"
+          ],
+          "source_id": "F2",
+          "status": "unknown"
+        },
+        "source_id": "F1",
+        "volume": null
+      },
+      {
+        "existing_page": {
+          "coverage": "sufficient",
+          "evidence_locator": "brief.md F1: excerpt explicitly addresses both candidate queries; owner considers sufficient",
+          "source_id": "F1",
+          "url": "https://cedarlesson.example/guides/changes"
+        },
+        "existing_urls": [
+          "https://cedarlesson.example/guides/changes"
+        ],
+        "id": "K2",
+        "intent": "informational",
+        "intent_reason": "Reader wants confirmation guidance; supplied coverage assessment applies.",
+        "keyword": "confirm changed lesson time",
+        "serp": {
+          "date": "2026-10-16",
+          "device": "desktop",
+          "language": "en",
+          "market": "US",
+          "organic_urls": [
+            "https://tutor-fixture.example/1",
+            "https://tutor-fixture.example/2",
+            "https://tutor-fixture.example/3",
+            "https://tutor-fixture.example/4",
+            "https://tutor-fixture.example/5",
+            "https://tutor-fixture.example/6",
+            "https://tutor-fixture.example/7",
+            "https://tutor-fixture.example/8",
+            "https://tutor-fixture.example/11",
+            "https://tutor-fixture.example/12"
+          ],
+          "source_id": "F2",
+          "status": "unknown"
+        },
+        "source_id": "F1",
+        "volume": null
+      }
+    ],
+    "existing_page_inventory": {
+      "evidence_locator": "Fictional inventory: supplied-input.json",
+      "pages": [
+        {
+          "coverage": "sufficient",
+          "evidence_locator": "supplied guide excerpt in brief.md",
+          "source_id": "F1",
+          "title": "Lesson-change checklist",
+          "url": "https://cedarlesson.example/guides/changes"
+        }
+      ],
+      "source_id": "F1",
+      "status": "complete"
+    },
+    "fictional": true,
+    "project": "CedarLesson (synthetic)",
+    "schema_version": "cluster-input-1.0",
+    "seed": "tutor lesson change checklist",
+    "sources": [
+      {
+        "description": "Author-created CedarLesson tutor-planning brief and complete fictional page inventory; no real business facts.",
+        "id": "F1",
+        "kind": "synthetic"
+      },
+      {
+        "description": "Synthetic ordered ten-URL sets for procedural comparison only; NOT fetched Google/SERP data or demand evidence. Scenario US/en/desktop 2026-10-16.",
+        "id": "F2",
+        "kind": "synthetic"
+      }
+    ]
+  },
+  "existing_page_inventory": {
+    "evidence_locator": "Fictional inventory: supplied-input.json",
+    "pages": [
+      {
+        "coverage": "sufficient",
+        "evidence_locator": "supplied guide excerpt in brief.md",
+        "source_id": "F1",
+        "title": "Lesson-change checklist",
+        "url": "https://cedarlesson.example/guides/changes"
+      }
+    ],
+    "source_id": "F1",
+    "status": "complete"
+  },
+  "fictional": true,
+  "inventory_status": "complete",
+  "links": [],
+  "ordering": "Deterministic structural order, not demand or publication priority",
+  "pages": [
+    {
+      "candidate_ids": [
+        "K1",
+        "K2"
+      ],
+      "candidate_next_actions": {
+        "K1": "Read the supplied schedule-change checklist",
+        "K2": "Read the supplied schedule-change checklist"
+      },
+      "cluster_id": null,
+      "content_purpose": "educational",
+      "conversion_definition": null,
+      "coverage_evidence": [
+        {
+          "candidate_id": "K1",
+          "coverage_evidence": [
+            {
+              "basis": "explicit_candidate_mapping",
+              "coverage": "sufficient",
+              "evidence_locator": "brief.md F1: excerpt explicitly addresses both candidate queries; owner considers sufficient",
+              "source_id": "F1",
+              "url": "https://cedarlesson.example/guides/changes"
+            }
+          ],
+          "existing_urls": [
+            "https://cedarlesson.example/guides/changes"
+          ],
+          "status": "retain"
+        },
+        {
+          "candidate_id": "K2",
+          "coverage_evidence": [
+            {
+              "basis": "explicit_candidate_mapping",
+              "coverage": "sufficient",
+              "evidence_locator": "brief.md F1: excerpt explicitly addresses both candidate queries; owner considers sufficient",
+              "source_id": "F1",
+              "url": "https://cedarlesson.example/guides/changes"
+            }
+          ],
+          "existing_urls": [
+            "https://cedarlesson.example/guides/changes"
+          ],
+          "status": "retain"
+        }
+      ],
+      "editorial": {},
+      "evidence_status": "provisional_intent_only",
+      "existing_urls": [
+        "https://cedarlesson.example/guides/changes"
+      ],
+      "id": "page-001",
+      "intent": "informational",
+      "next_action": "Read the supplied schedule-change checklist",
+      "path_status": "existing_destination_review",
+      "primary_keyword": "tutor lesson change checklist",
+      "proposed_path": "https://cedarlesson.example/guides/changes",
+      "rationale": "Objective: awareness. Positioning: Unverified concept for organizing change instructions. Validate reader job and supporting claims before commissioning.",
+      "role": "existing_review",
+      "secondary_keywords": [
+        "confirm changed lesson time"
+      ],
+      "status": "retain",
+      "template": "explainer",
+      "title": "tutor lesson change checklist",
+      "volume": null,
+      "word_target": null
+    }
+  ],
+  "pairs": [
+    {
+      "a": "K1",
+      "b": "K2",
+      "relation": "missing_or_noncomparable_top10",
+      "shared_top10": null
+    }
+  ],
+  "pillar_id": null,
+  "pillar_selection": "Seed page if present; otherwise highest count of measured topic connections, then stable ID. Editorial heuristic, not demand ranking.",
+  "project": "CedarLesson (synthetic)",
+  "publication_status": "not_executed",
+  "schema_version": "cluster-plan-1.0",
+  "seed": "tutor lesson change checklist",
+  "serp_matrix": {
+    "candidate_ids": [
+      "K1",
+      "K2"
+    ],
+    "scores": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ]
+  },
+  "settings": {
+    "candidate_target_max": 50,
+    "candidate_target_min": 30,
+    "cross_link_limit": 1,
+    "pillar_words": [
+      2500,
+      4000
+    ],
+    "sibling_link_limit": 3,
+    "spoke_words": [
+      1200,
+      1800
+    ]
+  },
+  "warnings": [
+    "Planning heuristics, not Google rules or publication approval. No demand, urgency, ranking or traffic lift is inferred.",
+    "Source records are supplied provenance, not independent verification. Analyst must confirm organic ranking order, freshness and authenticity.",
+    "Word ranges and link counts are adjustable editorial heuristics. Hub/spoke links require relevance review.",
+    "Existing-page mappings and inventory coverage are supplied assertions, not independent audits. Lexical similarity is a review hint only.",
+    "No new destination is authorized. A new_proposal requires a supplied complete inventory and cited gap/business rationale, and still requires editorial approval.",
+    "Candidate count outside configured discovery target; do not fabricate candidates to meet a quota.",
+    "Missing/exploratory/incomplete evidence: intent-only provisional folders do not establish SERP clusters or merge authority."
+  ]
+}

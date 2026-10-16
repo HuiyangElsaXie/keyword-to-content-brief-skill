@@ -1,0 +1,17 @@
+{
+  "transport": "functions.exec -> tools.exec_command (PowerShell harness file operations)",
+  "business_execution": [],
+  "network_calls": [],
+  "paid_calls": [],
+  "git_commands": [],
+  "subagents": [],
+  "operations": [
+    {"step":1,"operation":"read","commands":["Get-Content case.json","Get-Content skills/keyword-to-content-brief/SKILL.md"]},
+    {"step":2,"operation":"read_and_hash","commands":["Get-Content brief.md","Get-Content references/codex-cluster-routing.md","Get-Content docs/business-intake.md","Get-Content docs/input-contract.md","Get-Content docs/INVENTORY-CONTEXT.md","Get-Content docs/CODEX-CLUSTER-PORT.md","Get-FileHash -Algorithm SHA256 SKILL.md"],"note":"Combined output truncated; affected contracts reread next."},
+    {"step":3,"operation":"read","commands":["Get-Content QUESTIONNAIRE.md","Get-Content docs/INVENTORY-CONTEXT.md","Get-Content docs/input-contract.md"]},
+    {"step":4,"operation":"write","commands":["Set-Content raw-response.md"]},
+    {"step":5,"operation":"read","commands":["Get-Content raw-response.md"],"purpose":"Same-agent review of preserved first pass"},
+    {"step":6,"operation":"read_and_write","commands":["Get-Content -Raw raw-response.md","String.Replace for documented wording clarification","Set-Content final.md","Set-Content self-review.md","Set-Content tool-availability.md","Set-Content commands.json"]},
+    {"step":7,"operation":"read","commands":["Get-Item five deliverable files","Get-Content self-review.md"],"purpose":"Confirm saved artifacts and review record"}
+  ]
+}

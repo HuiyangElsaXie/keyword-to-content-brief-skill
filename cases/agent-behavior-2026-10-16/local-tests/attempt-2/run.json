@@ -1,0 +1,13 @@
+{
+  "repository": "keyword-to-content-brief-skill",
+  "baseline_commit": "b52fc3356b5d556920fb8ba93aa99266fa455e24",
+  "started_at_utc": "2026-10-16T21:30:03.945338+00:00",
+  "finished_at_utc": "2026-10-16T21:30:05.122795+00:00",
+  "command": "python -X utf8 -m unittest discover -s tests -v",
+  "runtime": "Python 3.13.7 temporary embedded runtime",
+  "exit_code": 1,
+  "test_count": 122,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "b0c0c66ad769d7e0d317e531f81a639df9e7f298a2830fa563b20f3787465061",
+  "scope": "Actual local execution; not agent behavior or live business/platform verification."
+}

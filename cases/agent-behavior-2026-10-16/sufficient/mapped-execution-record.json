@@ -1,0 +1,9 @@
+{
+  "command": "{PYTHON} scripts/cluster_workflow.py plan --input mapped-input.json --out renderer-mapped",
+  "cwd": "{REPO}",
+  "started_at": "2026-10-16T21:29:52.4276636Z",
+  "ended_at": "2026-10-16T21:29:52.5400943Z",
+  "exit_code": 0,
+  "stdout": "mapped.stdout.txt",
+  "stderr": "mapped.stderr.txt"
+}

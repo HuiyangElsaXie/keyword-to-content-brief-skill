@@ -1,0 +1,119 @@
+test_cluster_port_truth (unittest.loader._FailedTest.test_cluster_port_truth) ... ERROR
+test_cli_all_modes_real_artifacts_and_preservation (test_cluster_workflow.ClusterWorkflowTests.test_cli_all_modes_real_artifacts_and_preservation) ... FAIL
+test_comparability_and_discovery (test_cluster_workflow.ClusterWorkflowTests.test_comparability_and_discovery) ... ok
+test_complete_link_not_transitive (test_cluster_workflow.ClusterWorkflowTests.test_complete_link_not_transitive) ... ok
+test_context_and_editorial_change_brief (test_cluster_workflow.ClusterWorkflowTests.test_context_and_editorial_change_brief) ... ok
+test_context_provenance_validation (test_cluster_workflow.ClusterWorkflowTests.test_context_provenance_validation) ... ok
+test_determinism_and_symlink_refusal (test_cluster_workflow.ClusterWorkflowTests.test_determinism_and_symlink_refusal) ... ERROR
+test_existing_destination_dedup_and_coverage (test_cluster_workflow.ClusterWorkflowTests.test_existing_destination_dedup_and_coverage) ... ok
+test_explicit_inventory_and_new_proposal_gate (test_cluster_workflow.ClusterWorkflowTests.test_explicit_inventory_and_new_proposal_gate) ... ok
+test_incomplete_duplicate_and_query_validation (test_cluster_workflow.ClusterWorkflowTests.test_incomplete_duplicate_and_query_validation) ... ok
+test_links_root_consistency_and_honest_scorecard (test_cluster_workflow.ClusterWorkflowTests.test_links_root_consistency_and_honest_scorecard) ... ok
+test_mapping_import_is_explicit_unknown_coverage (test_cluster_workflow.ClusterWorkflowTests.test_mapping_import_is_explicit_unknown_coverage) ... ok
+test_missing_snapshots_provisional_and_unknown_volume (test_cluster_workflow.ClusterWorkflowTests.test_missing_snapshots_provisional_and_unknown_volume) ... ok
+test_navigation_retained_review_only (test_cluster_workflow.ClusterWorkflowTests.test_navigation_retained_review_only) ... ok
+test_normalized_terms_are_review_signals_not_coverage (test_cluster_workflow.ClusterWorkflowTests.test_normalized_terms_are_review_signals_not_coverage) ... ok
+test_recruitment_templates_and_next_action_precedence (test_cluster_workflow.ClusterWorkflowTests.test_recruitment_templates_and_next_action_precedence) ... ok
+test_safe_map_and_filenames (test_cluster_workflow.ClusterWorkflowTests.test_safe_map_and_filenames) ... ok
+test_utc_capture_day_and_future_dates (test_cluster_workflow.ClusterWorkflowTests.test_utc_capture_day_and_future_dates) ... ok
+test_volume_scope_required_and_not_used_as_rank (test_cluster_workflow.ClusterWorkflowTests.test_volume_scope_required_and_not_used_as_rank) ... ok
+test_intake (unittest.loader._FailedTest.test_intake) ... ERROR
+test_inventory_context_truth (unittest.loader._FailedTest.test_inventory_context_truth) ... ERROR
+test_plan (unittest.loader._FailedTest.test_plan) ... ERROR
+test_complete_module_snapshot (test_upstream_module.UpstreamModuleIntegrity.test_complete_module_snapshot) ... ok
+test_workflow (unittest.loader._FailedTest.test_workflow) ... ERROR
+
+======================================================================
+ERROR: test_cluster_port_truth (unittest.loader._FailedTest.test_cluster_port_truth)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_cluster_port_truth
+Traceback (most recent call last):
+  File "unittest\loader.py", line 396, in _find_test_path
+  File "unittest\loader.py", line 339, in _get_module_from_name
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_cluster_port_truth.py", line 10, in <module>
+    from scripts.plan_keywords import plan
+ModuleNotFoundError: No module named 'scripts'
+
+
+======================================================================
+ERROR: test_determinism_and_symlink_refusal (test_cluster_workflow.ClusterWorkflowTests.test_determinism_and_symlink_refusal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_cluster_workflow.py", line 245, in test_determinism_and_symlink_refusal
+    link.symlink_to(real, target_is_directory=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pathlib\_local.py", line 789, in symlink_to
+OSError: [WinError 1314] A required privilege is not held by the client: '{TEMP}\\tmpfp5d4qo6\\real' -> '{TEMP}\\tmpfp5d4qo6\\link'
+
+======================================================================
+ERROR: test_intake (unittest.loader._FailedTest.test_intake)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_intake
+Traceback (most recent call last):
+  File "unittest\loader.py", line 396, in _find_test_path
+  File "unittest\loader.py", line 339, in _get_module_from_name
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_intake.py", line 6, in <module>
+    from scripts.plan_keywords import plan, write_outputs
+ModuleNotFoundError: No module named 'scripts'
+
+
+======================================================================
+ERROR: test_inventory_context_truth (unittest.loader._FailedTest.test_inventory_context_truth)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_inventory_context_truth
+Traceback (most recent call last):
+  File "unittest\loader.py", line 396, in _find_test_path
+  File "unittest\loader.py", line 339, in _get_module_from_name
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_inventory_context_truth.py", line 9, in <module>
+    from scripts import cluster_workflow as cw
+ModuleNotFoundError: No module named 'scripts'
+
+
+======================================================================
+ERROR: test_plan (unittest.loader._FailedTest.test_plan)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_plan
+Traceback (most recent call last):
+  File "unittest\loader.py", line 396, in _find_test_path
+  File "unittest\loader.py", line 339, in _get_module_from_name
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_plan.py", line 3, in <module>
+    from scripts.validate_plan import validate_plan
+ModuleNotFoundError: No module named 'scripts'
+
+
+======================================================================
+ERROR: test_workflow (unittest.loader._FailedTest.test_workflow)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_workflow
+Traceback (most recent call last):
+  File "unittest\loader.py", line 396, in _find_test_path
+  File "unittest\loader.py", line 339, in _get_module_from_name
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_workflow.py", line 6, in <module>
+    from scripts.plan_keywords import plan, prepare, overlap, norm_url, write_outputs
+ModuleNotFoundError: No module named 'scripts'
+
+
+======================================================================
+FAIL: test_cli_all_modes_real_artifacts_and_preservation (test_cluster_workflow.ClusterWorkflowTests.test_cli_all_modes_real_artifacts_and_preservation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_cluster_workflow.py", line 220, in test_cli_all_modes_real_artifacts_and_preservation
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\scripts\cluster_workflow.py", line 18, in <module>
+    from .plan_keywords import norm_keyword, norm_url, require, INTENTS
+ImportError: attempted relative import with no known parent package
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\scripts\cluster_workflow.py", line 20, in <module>
+    from plan_keywords import norm_keyword, norm_url, require, INTENTS
+ModuleNotFoundError: No module named 'plan_keywords'
+
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.106s
+
+FAILED (failures=1, errors=6)

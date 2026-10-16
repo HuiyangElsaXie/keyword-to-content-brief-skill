@@ -1,0 +1,137 @@
+test_context_provenance_preserved_and_unknown_not_tailored (test_cluster_port_truth.AgentPairedArtifactTests.test_context_provenance_preserved_and_unknown_not_tailored) ... ok
+test_count_semantics_distinguish_review_and_editorial_scaffolds (test_cluster_port_truth.AgentPairedArtifactTests.test_count_semantics_distinguish_review_and_editorial_scaffolds) ... ok
+test_substantive_reader_jobs_and_next_actions_differ (test_cluster_port_truth.AgentPairedArtifactTests.test_substantive_reader_jobs_and_next_actions_differ) ... ok
+test_context_dimensions_are_each_incomparable (test_cluster_port_truth.ClusterEvidenceTruthTests.test_context_dimensions_are_each_incomparable) ... ok
+test_exact_duplicate_preserves_alias_id (test_cluster_port_truth.ClusterEvidenceTruthTests.test_exact_duplicate_preserves_alias_id) ... ok
+test_missing_snapshot_prevents_merge_and_commission (test_cluster_port_truth.ClusterEvidenceTruthTests.test_missing_snapshot_prevents_merge_and_commission) ... ok
+test_navigation_never_commissions_article (test_cluster_port_truth.ClusterEvidenceTruthTests.test_navigation_never_commissions_article) ... ok
+test_repeated_url_is_not_ten_results (test_cluster_port_truth.ClusterEvidenceTruthTests.test_repeated_url_is_not_ten_results) ... ok
+test_same_keywords_really_are_same (test_cluster_port_truth.ClusterEvidenceTruthTests.test_same_keywords_really_are_same) ... ok
+test_source_provenance_required (test_cluster_port_truth.ClusterEvidenceTruthTests.test_source_provenance_required) ... ok
+test_synthetic_source_cannot_be_marked_real (test_cluster_port_truth.ClusterEvidenceTruthTests.test_synthetic_source_cannot_be_marked_real) ... ok
+test_transitive_overlap_never_creates_three_way_merge (test_cluster_port_truth.ClusterEvidenceTruthTests.test_transitive_overlap_never_creates_three_way_merge) ... ok
+test_all_review_case_not_a_false_success_or_orphan_alarm (test_cluster_port_truth.FinalRendererAndReviewGraphTests.test_all_review_case_not_a_false_success_or_orphan_alarm) ... ok
+test_review_nodes_have_no_auto_edges (test_cluster_port_truth.FinalRendererAndReviewGraphTests.test_review_nodes_have_no_auto_edges) ... ok
+test_supplied_structure_first_and_links_adjacent (test_cluster_port_truth.FinalRendererAndReviewGraphTests.test_supplied_structure_first_and_links_adjacent) ... ok
+test_artifact_traversal_rejected (test_cluster_port_truth.NewCodexPortTruthTests.test_artifact_traversal_rejected) ... ok
+test_complete_generic_web_not_google_topten (test_cluster_port_truth.NewCodexPortTruthTests.test_complete_generic_web_not_google_topten) ... ok
+test_context_mismatches_block_overlap (test_cluster_port_truth.NewCodexPortTruthTests.test_context_mismatches_block_overlap) ... ok
+test_duplicate_normalized_urls_rejected (test_cluster_port_truth.NewCodexPortTruthTests.test_duplicate_normalized_urls_rejected) ... ok
+test_duplicate_queries_require_reconciliation (test_cluster_port_truth.NewCodexPortTruthTests.test_duplicate_queries_require_reconciliation) ... ok
+test_existing_output_is_not_overwritten (test_cluster_port_truth.NewCodexPortTruthTests.test_existing_output_is_not_overwritten) ... ok
+test_exploratory_ten_links_still_unknown_overlap (test_cluster_port_truth.NewCodexPortTruthTests.test_exploratory_ten_links_still_unknown_overlap) ... ok
+test_future_snapshot_is_rejected (test_cluster_port_truth.NewCodexPortTruthTests.test_future_snapshot_is_rejected) ... ok
+test_future_volume_date_is_rejected (test_cluster_port_truth.NewCodexPortTruthTests.test_future_volume_date_is_rejected) ... ok
+test_javascript_result_url_rejected_without_network (test_cluster_port_truth.NewCodexPortTruthTests.test_javascript_result_url_rejected_without_network) ... ok
+test_nav_and_mixed_are_review_only_without_word_budget (test_cluster_port_truth.NewCodexPortTruthTests.test_nav_and_mixed_are_review_only_without_word_budget) ... ok
+test_no_transitive_merge (test_cluster_port_truth.NewCodexPortTruthTests.test_no_transitive_merge) ... ok
+test_no_written_article_claim (test_cluster_port_truth.NewCodexPortTruthTests.test_no_written_article_claim) ... ok
+test_script_termination_payload_is_inert (test_cluster_port_truth.NewCodexPortTruthTests.test_script_termination_payload_is_inert) ... ok
+test_source_assertions_not_authentication (test_cluster_port_truth.NewCodexPortTruthTests.test_source_assertions_not_authentication) ... ok
+test_synthetic_labels_visible_in_brief_and_map (test_cluster_port_truth.NewCodexPortTruthTests.test_synthetic_labels_visible_in_brief_and_map) ... ok
+test_tampered_plan_id_cannot_write_outside_brief_dir (test_cluster_port_truth.NewCodexPortTruthTests.test_tampered_plan_id_cannot_write_outside_brief_dir) ... ok
+test_unknown_volume_remains_null (test_cluster_port_truth.NewCodexPortTruthTests.test_unknown_volume_remains_null) ... ok
+test_cli_all_modes_real_artifacts_and_preservation (test_cluster_workflow.ClusterWorkflowTests.test_cli_all_modes_real_artifacts_and_preservation) ... ok
+test_comparability_and_discovery (test_cluster_workflow.ClusterWorkflowTests.test_comparability_and_discovery) ... ok
+test_complete_link_not_transitive (test_cluster_workflow.ClusterWorkflowTests.test_complete_link_not_transitive) ... ok
+test_context_and_editorial_change_brief (test_cluster_workflow.ClusterWorkflowTests.test_context_and_editorial_change_brief) ... ok
+test_context_provenance_validation (test_cluster_workflow.ClusterWorkflowTests.test_context_provenance_validation) ... ok
+test_determinism_and_symlink_refusal (test_cluster_workflow.ClusterWorkflowTests.test_determinism_and_symlink_refusal) ... ERROR
+test_existing_destination_dedup_and_coverage (test_cluster_workflow.ClusterWorkflowTests.test_existing_destination_dedup_and_coverage) ... ok
+test_explicit_inventory_and_new_proposal_gate (test_cluster_workflow.ClusterWorkflowTests.test_explicit_inventory_and_new_proposal_gate) ... ok
+test_incomplete_duplicate_and_query_validation (test_cluster_workflow.ClusterWorkflowTests.test_incomplete_duplicate_and_query_validation) ... ok
+test_links_root_consistency_and_honest_scorecard (test_cluster_workflow.ClusterWorkflowTests.test_links_root_consistency_and_honest_scorecard) ... ok
+test_mapping_import_is_explicit_unknown_coverage (test_cluster_workflow.ClusterWorkflowTests.test_mapping_import_is_explicit_unknown_coverage) ... ok
+test_missing_snapshots_provisional_and_unknown_volume (test_cluster_workflow.ClusterWorkflowTests.test_missing_snapshots_provisional_and_unknown_volume) ... ok
+test_navigation_retained_review_only (test_cluster_workflow.ClusterWorkflowTests.test_navigation_retained_review_only) ... ok
+test_normalized_terms_are_review_signals_not_coverage (test_cluster_workflow.ClusterWorkflowTests.test_normalized_terms_are_review_signals_not_coverage) ... ok
+test_recruitment_templates_and_next_action_precedence (test_cluster_workflow.ClusterWorkflowTests.test_recruitment_templates_and_next_action_precedence) ... ok
+test_safe_map_and_filenames (test_cluster_workflow.ClusterWorkflowTests.test_safe_map_and_filenames) ... ok
+test_utc_capture_day_and_future_dates (test_cluster_workflow.ClusterWorkflowTests.test_utc_capture_day_and_future_dates) ... ok
+test_volume_scope_required_and_not_used_as_rank (test_cluster_workflow.ClusterWorkflowTests.test_volume_scope_required_and_not_used_as_rank) ... ok
+test_assumed_objective_cannot_commission (test_intake.IntakeTests.test_assumed_objective_cannot_commission) ... ok
+test_awareness_does_not_require_conversion_definition (test_intake.IntakeTests.test_awareness_does_not_require_conversion_definition) ... ok
+test_conversion_requires_event (test_intake.IntakeTests.test_conversion_requires_event) ... ok
+test_covered_means_retain (test_intake.IntakeTests.test_covered_means_retain) ... ok
+test_distinct_brand_product_lifecycles (test_intake.IntakeTests.test_distinct_brand_product_lifecycles) ... ok
+test_entity_navigation_not_hardcoded_product_help (test_intake.IntakeTests.test_entity_navigation_not_hardcoded_product_help) ... ok
+test_gap_plus_context_supports_update (test_intake.IntakeTests.test_gap_plus_context_supports_update) ... ok
+test_intake_source_invalid (test_intake.IntakeTests.test_intake_source_invalid) ... ok
+test_invalid_classification_rejected_without_priority (test_intake.IntakeTests.test_invalid_classification_rejected_without_priority) ... ok
+test_inventory_does_not_prove_update (test_intake.IntakeTests.test_inventory_does_not_prove_update) ... ok
+test_lifecycle_separate_from_site_age (test_intake.IntakeTests.test_lifecycle_separate_from_site_age) ... ok
+test_market_mismatch_no_commission (test_intake.IntakeTests.test_market_mismatch_no_commission) ... ok
+test_missing_audience_industry_general (test_intake.IntakeTests.test_missing_audience_industry_general) ... ok
+test_missing_context_not_validation_error (test_intake.IntakeTests.test_missing_context_not_validation_error) ... ok
+test_no_priority_rationale_no_commission (test_intake.IntakeTests.test_no_priority_rationale_no_commission) ... ok
+test_objective_mismatch_blocks_prioritization (test_intake.IntakeTests.test_objective_mismatch_blocks_prioritization) ... ok
+test_reuse_answers_and_do_not_repeat_explicit_unknown (test_intake.IntakeTests.test_reuse_answers_and_do_not_repeat_explicit_unknown) ... ok
+test_same_target_single_brief_without_cluster_claim (test_intake.IntakeTests.test_same_target_single_brief_without_cluster_claim) ... ok
+test_supplied_answer_requires_trace (test_intake.IntakeTests.test_supplied_answer_requires_trace) ... ok
+test_tailored_context_ready (test_intake.IntakeTests.test_tailored_context_ready) ... ok
+test_unknown_industry_generic_framework (test_intake.IntakeTests.test_unknown_industry_generic_framework) ... ok
+test_unknown_objective_industry_general (test_intake.IntakeTests.test_unknown_objective_industry_general) ... ok
+test_unknown_priority_accepted (test_intake.IntakeTests.test_unknown_priority_accepted) ... ok
+test_unknown_problem_yields_industry_reference (test_intake.IntakeTests.test_unknown_problem_yields_industry_reference) ... ok
+test_cli_legacy_page_mapping_is_consumed_as_unknown_coverage (test_inventory_context_truth.InventoryContextTruthTests.test_cli_legacy_page_mapping_is_consumed_as_unknown_coverage) ... ok
+test_complete_inventory_without_cited_gap_does_not_justify_page (test_inventory_context_truth.InventoryContextTruthTests.test_complete_inventory_without_cited_gap_does_not_justify_page) ... ok
+test_context_next_action_is_propagated_without_conversion_override (test_inventory_context_truth.InventoryContextTruthTests.test_context_next_action_is_propagated_without_conversion_override) ... ok
+test_distinct_review_destinations_never_receive_automatic_graph_links (test_inventory_context_truth.InventoryContextTruthTests.test_distinct_review_destinations_never_receive_automatic_graph_links) ... ok
+test_editorial_next_action_has_precedence (test_inventory_context_truth.InventoryContextTruthTests.test_editorial_next_action_has_precedence) ... ok
+test_existing_review_without_metadata_does_not_suggest_replacement (test_inventory_context_truth.InventoryContextTruthTests.test_existing_review_without_metadata_does_not_suggest_replacement) ... ok
+test_inventory_duplicate_url_does_not_create_duplicate_destinations (test_inventory_context_truth.InventoryContextTruthTests.test_inventory_duplicate_url_does_not_create_duplicate_destinations) ... ok
+test_justified_new_gap_and_new_site_remain_proposable (test_inventory_context_truth.InventoryContextTruthTests.test_justified_new_gap_and_new_site_remain_proposable) ... ok
+test_missing_and_partial_inventory_do_not_establish_absence (test_inventory_context_truth.InventoryContextTruthTests.test_missing_and_partial_inventory_do_not_establish_absence) ... ok
+test_missing_inventory_is_explicitly_unknown_not_complete_empty (test_inventory_context_truth.InventoryContextTruthTests.test_missing_inventory_is_explicitly_unknown_not_complete_empty) ... ok
+test_nonportfolio_existing_mapping_also_blocks_new_pages (test_inventory_context_truth.InventoryContextTruthTests.test_nonportfolio_existing_mapping_also_blocks_new_pages) ... ok
+test_normalized_term_match_is_review_not_coverage (test_inventory_context_truth.InventoryContextTruthTests.test_normalized_term_match_is_review_not_coverage) ... ok
+test_partial_coverage_on_duplicate_destination_cannot_become_retain (test_inventory_context_truth.InventoryContextTruthTests.test_partial_coverage_on_duplicate_destination_cannot_become_retain) ... ok
+test_portfolio_commercial_intent_is_not_shopping_comparison (test_inventory_context_truth.InventoryContextTruthTests.test_portfolio_commercial_intent_is_not_shopping_comparison) ... ok
+test_same_url_tracking_alias_is_not_duplicate_proposal (test_inventory_context_truth.InventoryContextTruthTests.test_same_url_tracking_alias_is_not_duplicate_proposal) ... ok
+test_semantic_overlap_is_not_claimed_resolved_by_exact_keywords (test_inventory_context_truth.InventoryContextTruthTests.test_semantic_overlap_is_not_claimed_resolved_by_exact_keywords) ... ok
+test_sufficient_existing_url_is_one_retained_work_item (test_inventory_context_truth.InventoryContextTruthTests.test_sufficient_existing_url_is_one_retained_work_item) ... ok
+test_supplied_mapping_assertions_are_not_independent_verification (test_inventory_context_truth.InventoryContextTruthTests.test_supplied_mapping_assertions_are_not_independent_verification) ... ok
+test_unknown_gap_source_rejected (test_inventory_context_truth.InventoryContextTruthTests.test_unknown_gap_source_rejected) ... ok
+test_unknown_mapping_source_rejected (test_inventory_context_truth.InventoryContextTruthTests.test_unknown_mapping_source_rejected) ... ok
+test_unknown_serp_and_volume_stay_null (test_inventory_context_truth.InventoryContextTruthTests.test_unknown_serp_and_volume_stay_null) ... ok
+test_capacity (test_plan.Checks.test_capacity) ... ok
+test_conflict (test_plan.Checks.test_conflict) ... ok
+test_sample (test_plan.Checks.test_sample) ... ok
+test_update_requires_existing_page (test_plan.Checks.test_update_requires_existing_page) ... ok
+test_complete_module_snapshot (test_upstream_module.UpstreamModuleIntegrity.test_complete_module_snapshot) ... ok
+test_boolean_capacity_is_not_integer (test_workflow.EvidenceWorkflowTests.test_boolean_capacity_is_not_integer) ... ok
+test_capacity_selects_priority_not_volume (test_workflow.EvidenceWorkflowTests.test_capacity_selects_priority_not_volume) ... ok
+test_case_groups_aliases_and_routes_inventory (test_workflow.EvidenceWorkflowTests.test_case_groups_aliases_and_routes_inventory) ... ok
+test_conflicting_duplicate_rejected (test_workflow.EvidenceWorkflowTests.test_conflicting_duplicate_rejected) ... ok
+test_context_mismatch_is_unknown_not_zero (test_workflow.EvidenceWorkflowTests.test_context_mismatch_is_unknown_not_zero) ... ok
+test_credentials_not_allowed_in_url (test_workflow.EvidenceWorkflowTests.test_credentials_not_allowed_in_url) ... ok
+test_distinct_intents_do_not_auto_merge (test_workflow.EvidenceWorkflowTests.test_distinct_intents_do_not_auto_merge) ... ok
+test_every_input_is_represented_once (test_workflow.EvidenceWorkflowTests.test_every_input_is_represented_once) ... ok
+test_incomplete_snapshot_does_not_use_threshold (test_workflow.EvidenceWorkflowTests.test_incomplete_snapshot_does_not_use_threshold) ... ok
+test_navigation_and_mixed_intent_are_deferred (test_workflow.EvidenceWorkflowTests.test_navigation_and_mixed_intent_are_deferred) ... ok
+test_new_path_does_not_collide_inventory (test_workflow.EvidenceWorkflowTests.test_new_path_does_not_collide_inventory) ... ok
+test_no_transitive_chain_merge (test_workflow.EvidenceWorkflowTests.test_no_transitive_chain_merge) ... ok
+test_normalizer_preserves_meaningful_query_and_path_case (test_workflow.EvidenceWorkflowTests.test_normalizer_preserves_meaningful_query_and_path_case) ... ok
+test_omitted_serp_is_normalized_to_missing (test_workflow.EvidenceWorkflowTests.test_omitted_serp_is_normalized_to_missing) ... ok
+test_output_refuses_to_overwrite_evidence (test_workflow.EvidenceWorkflowTests.test_output_refuses_to_overwrite_evidence) ... ok
+test_repeated_urls_do_not_inflate_overlap (test_workflow.EvidenceWorkflowTests.test_repeated_urls_do_not_inflate_overlap) ... ok
+test_reproducible (test_workflow.EvidenceWorkflowTests.test_reproducible) ... ok
+test_synthetic_cannot_be_marked_real (test_workflow.EvidenceWorkflowTests.test_synthetic_cannot_be_marked_real) ... ok
+test_threshold_boundaries (test_workflow.EvidenceWorkflowTests.test_threshold_boundaries) ... ok
+test_two_inventory_targets_require_review (test_workflow.EvidenceWorkflowTests.test_two_inventory_targets_require_review) ... ok
+test_unknown_source_fails (test_workflow.EvidenceWorkflowTests.test_unknown_source_fails) ... ok
+
+======================================================================
+ERROR: test_determinism_and_symlink_refusal (test_cluster_workflow.ClusterWorkflowTests.test_determinism_and_symlink_refusal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "{TASK}\round2-work\keyword-to-content-brief-skill\tests\test_cluster_workflow.py", line 245, in test_determinism_and_symlink_refusal
+    link.symlink_to(real, target_is_directory=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pathlib\_local.py", line 789, in symlink_to
+OSError: [WinError 1314] A required privilege is not held by the client: '{TEMP}\\tmps4hyaqd_\\real' -> '{TEMP}\\tmps4hyaqd_\\link'
+
+----------------------------------------------------------------------
+Ran 122 tests in 0.849s
+
+FAILED (errors=1)

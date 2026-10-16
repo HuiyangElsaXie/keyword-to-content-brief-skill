@@ -1,0 +1,80 @@
+{
+  "commands": [
+    {
+      "exit_code": 0,
+      "sequence": 1,
+      "tool": "exec_command",
+      "purpose": "Read task and entrypoint",
+      "targets": [
+        "case.json",
+        "skill SKILL.md"
+      ],
+      "operation": "Get-Content -Raw"
+    },
+    {
+      "exit_code": 0,
+      "sequence": 2,
+      "tool": "exec_command",
+      "purpose": "Read relevant inputs/contracts and hash skill",
+      "targets": [
+        "supplied-input.json",
+        "brief.md",
+        "codex-cluster-routing.md",
+        "CODEX-CLUSTER-PORT.md",
+        "business-intake.md",
+        "input-contract.md",
+        "INVENTORY-CONTEXT.md",
+        "SKILL.md"
+      ],
+      "operation": "Get-Content -Raw; Get-FileHash -Algorithm SHA256",
+      "note": "Combined output truncated; no business script run"
+    },
+    {
+      "exit_code": 0,
+      "sequence": 3,
+      "tool": "exec_command",
+      "purpose": "Read intake and context mapping in full returned output",
+      "targets": [
+        "business-intake.md",
+        "QUESTIONNAIRE.md"
+      ],
+      "operation": "Get-Content -Raw"
+    },
+    {
+      "exit_code": 0,
+      "sequence": 4,
+      "tool": "exec_command",
+      "purpose": "Preserve initial response before review",
+      "targets": [
+        "raw-response.md"
+      ],
+      "operation": "PowerShell here-string | Set-Content -Encoding UTF8"
+    },
+    {
+      "exit_code": 0,
+      "sequence": 5,
+      "tool": "exec_command",
+      "purpose": "Review saved first response",
+      "targets": [
+        "raw-response.md"
+      ],
+      "operation": "Get-Content -Raw"
+    },
+    {
+      "sequence": 6,
+      "tool": "exec_command",
+      "purpose": "Save justified revision, review and harness records",
+      "targets": [
+        "raw-response.md",
+        "final.md",
+        "self-review.md",
+        "tool-availability.md",
+        "commands.json"
+      ],
+      "operation": "Get-Content -Raw -Encoding UTF8; String.Replace; Set-Content -Encoding UTF8; ConvertTo-Json",
+      "note": "This record describes this save call; result is available in host tool log"
+    }
+  ],
+  "business_execution": [],
+  "record_type": "Honest semantic command records, not verbatim terminal transcripts"
+}

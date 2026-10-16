@@ -4,6 +4,16 @@ description: Plan evidence-led keyword clusters in Codex from a seed, URL, strat
 ---
 # Codex keyword clusters and content briefs
 
+## Choose the shortest input route
+
+Optional current full handoff: [Sol 6.1 generated content plan and editorial brief](../../cases/agent-behavior-2026-10-16/sufficient/final.md), with [inputs, raw output and review](../../cases/agent-behavior-2026-10-16/README.md). Synthetic bounded test, not real demand evidence.
+
+- **URL or seed:** reuse the business brief and known page inventory, then use only actual authorized research tools. Without those tools, analyze supplied material and label candidate ideas provisional; never invent SERP or volume evidence.
+- **Supplied evidence:** use the documented [questionnaire/template](QUESTIONNAIRE.md) for the retained evidence helper, or the separate [cluster contract](../../docs/CODEX-CLUSTER-PORT.md) for the full agent planning route. Preserve source/date/market/language/device and inventory limits. Python modules stay offline; the agent/editor finishes and reviews briefs.
+- Optional output orientation: [current inventory-first plan](../../cases/inventory-context-repair/final-marine-existing/cluster-plan.md), [its unfinished brief scaffold](../../cases/inventory-context-repair/final-marine-existing/cluster-briefs/page-001.md), and [retained editorial report](../../examples/intake-case/final-report.md). The latter is historical; all use synthetic inputs, not demand evidence. Open examples only when useful, not for every task.
+
+**Package layout:** keep the full repository and provide this entrypoint explicitly. Its ../../docs, ../../scripts, ../../cases, ../../examples and attribution links require the repository context; copying only this nested skill folder is not a complete installation. Follow host-specific discovery rules without assuming an automatic installer.
+
 Adapted from AgriciDaniel/claude-seo seo-cluster v2.4.2 at commit 4b99de2f7de7e7d5247042e5fb5b4ea9368ef734 (MIT). Upstream metadata credits original author Lutfiya Miller. See ../../ATTRIBUTION.md and ../../ADAPTATION.md; the unchanged source and license are retained under ../../upstream/claude-seo/.
 
 ## Two entry points / 两种使用入口

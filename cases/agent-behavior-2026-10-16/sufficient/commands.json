@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-16T21:30:50.2047204Z",
+  "timestamp_note": "Renderer start/end timestamps were captured at execution. Earlier read and document-writing calls have no independently captured wall timestamp; no timestamp is invented.",
+  "execution_records": [
+    {
+      "command": "& '.\\.runtime\\python-tests\\python.exe' '{REPO}\\scripts\\cluster_workflow.py' plan --input '{CASE}\\supplied-input.json' --out '{CASE}\\renderer-first' 1> '{CASE}\\renderer.stdout.txt' 2> '{CASE}\\renderer.stderr.txt'",
+      "cwd": "{TASK}",
+      "started_at": "2026-10-16T21:29:33.7467177Z",
+      "ended_at": "2026-10-16T21:29:33.9843097Z",
+      "exit_code": 2,
+      "stdout": "renderer.stdout.txt",
+      "stderr": "renderer.stderr.txt",
+      "correction": "First invocation actually used task workspace cwd, absolute script path and relative .runtime interpreter; recorded cwd above was intended repo path. Python error exit is captured accurately; later runs used repo cwd."
+    },
+    {
+      "command": "& '{PYTHON}' scripts/cluster_workflow.py plan --input '{CASE}\\normalized-input.json' --out '{CASE}\\renderer-final' 1> '{CASE}\\normalized.stdout.txt' 2> '{CASE}\\normalized.stderr.txt'",
+      "cwd": "{REPO}",
+      "started_at": "2026-10-16T21:29:42.6232916Z",
+      "ended_at": "2026-10-16T21:29:42.734869Z",
+      "exit_code": 0,
+      "stdout": "normalized.stdout.txt",
+      "stderr": "normalized.stderr.txt"
+    },
+    {
+      "command": "& '{PYTHON}' scripts/cluster_workflow.py plan --input '{CASE}\\mapped-input.json' --out '{CASE}\\renderer-mapped' 1> '{CASE}\\mapped.stdout.txt' 2> '{CASE}\\mapped.stderr.txt'",
+      "cwd": "{REPO}",
+      "started_at": "2026-10-16T21:29:52.4276636Z",
+      "ended_at": "2026-10-16T21:29:52.5400943Z",
+      "exit_code": 0,
+      "stdout": "mapped.stdout.txt",
+      "stderr": "mapped.stderr.txt"
+    }
+  ],
+  "supporting_read_commands": [
+    "Get-Content -Raw case.json; Get-Content -Raw SKILL.md",
+    "Get-Content -Raw supplied-input.json; Get-Content -Raw brief.md; Get-Content -Raw docs/business-intake.md; Get-Content -Raw docs/input-contract.md; Get-Content -Raw docs/INVENTORY-CONTEXT.md",
+    "Get-Content -Raw references/codex-cluster-routing.md; Get-Content -Raw docs/CODEX-CLUSTER-PORT.md",
+    "Get-FileHash SKILL.md -Algorithm SHA256"
+  ],
+  "read_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "artifacts": [
+    "raw-response.md",
+    "self-review.md",
+    "final.md",
+    "tool-availability.md",
+    "normalized-input.json",
+    "mapped-input.json",
+    "renderer.stdout.txt",
+    "renderer.stderr.txt",
+    "normalized.stdout.txt",
+    "normalized.stderr.txt",
+    "mapped.stdout.txt",
+    "mapped.stderr.txt",
+    "renderer-final/",
+    "renderer-mapped/"
+  ],
+  "transformation_commands": [
+    "Set candidate.serp.status=unknown in normalized-input.json; original remains unchanged",
+    "Set candidate.existing_page to F1 sufficient coverage; copy positioning into brand_position; write mapped-input.json"
+  ],
+  "shell_exit_note": "Wrapper shell exit 0 does not mean renderer success: consult recorded Python exit_code and untouched stdout/stderr."
+}

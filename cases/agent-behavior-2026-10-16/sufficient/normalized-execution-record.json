@@ -1,0 +1,9 @@
+{
+  "command": "{PYTHON} scripts/cluster_workflow.py plan --input normalized-input.json --out renderer-final",
+  "cwd": "{REPO}",
+  "started_at": "2026-10-16T21:29:42.6232916Z",
+  "ended_at": "2026-10-16T21:29:42.7348690Z",
+  "exit_code": 0,
+  "stdout": "normalized.stdout.txt",
+  "stderr": "normalized.stderr.txt"
+}

@@ -1,8 +1,12 @@
 # Keyword to Content Brief
 
+[本轮真实 Sol 6.1 场景、首稿与审阅 / agent behavior evidence](cases/agent-behavior-2026-10-16/README.md) — 合成输入，不代表真实调研或业务效果。
+
 **Purpose: plan evidence-led keyword clusters and reviewable content briefs in Codex.** Start with a seed, URL, strategy or permitted exports. The agent researches where authorized tools are available, qualifies evidence, designs pillar/spoke architecture and links, and reviews the plan, interactive map, individual briefs and planning scorecard. Python renderers stay offline; keyword discovery is an agent task, and no built-in search-volume, live SERP or Search Console connector is claimed.
 
 ## Start in one minute
+
+Keep the full repository and provide the nested SKILL.md entrypoint explicitly. Copying only its child folder omits root scripts/docs/cases and attribution resources; installation/discovery depends on the host.
 
 [Current example plan](cases/inventory-context-repair/final-marine-existing/cluster-plan.md) · [Current brief scaffold — needs editorial completion](cases/inventory-context-repair/final-marine-existing/cluster-briefs/page-001.md) · [Earlier completed editorial report — historical example](examples/intake-case/final-report.md) · [Current behavior review](cases/inventory-context-repair/REVIEW.md)
 

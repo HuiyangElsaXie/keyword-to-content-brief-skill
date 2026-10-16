@@ -1,0 +1,9 @@
+{
+  "command": "offline Python cluster_workflow.py plan --input supplied-input.json --out renderer-first",
+  "cwd": "{REPO}",
+  "started_at": "2026-10-16T21:29:33.7467177Z",
+  "ended_at": "2026-10-16T21:29:33.9843097Z",
+  "exit_code": 2,
+  "stdout": "renderer.stdout.txt",
+  "stderr": "renderer.stderr.txt"
+}

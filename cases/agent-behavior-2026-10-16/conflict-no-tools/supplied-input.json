@@ -1,0 +1,107 @@
+{
+  "schema_version": "cluster-input-1.0",
+  "fictional": true,
+  "project": "CedarLesson (synthetic)",
+  "seed": "tutor lesson change checklist",
+  "sources": [
+    {
+      "id": "F1",
+      "kind": "synthetic",
+      "description": "Author-created CedarLesson tutor-planning brief and complete fictional page inventory; no real business facts."
+    },
+    {
+      "id": "F2",
+      "kind": "synthetic",
+      "description": "Synthetic ordered ten-URL sets for procedural comparison only; NOT fetched Google/SERP data or demand evidence. Scenario US/en/desktop 2026-10-16."
+    }
+  ],
+  "business_context": {
+    "industry": "Tutor scheduling guides",
+    "audience": "Solo tutors coordinating with parents",
+    "geography": "US",
+    "language": "en",
+    "primary_objective": "awareness",
+    "next_action": "Read the supplied schedule-change checklist",
+    "positioning": "Unverified concept for organizing change instructions",
+    "resources": "One content review this week, no new pages",
+    "constraints": "No product integrations, price, demand or time-saving claims",
+    "content_purpose": "educational",
+    "site_stage": "existing_site"
+  },
+  "candidates": [
+    {
+      "id": "K1",
+      "keyword": "tutor lesson change checklist",
+      "intent": "informational",
+      "intent_reason": "Reader needs a sequence for agreeing a changed lesson time.",
+      "source_id": "F1",
+      "serp": {
+        "source_id": "F2",
+        "date": "2026-10-16",
+        "market": "US",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://tutor-fixture.example/1",
+          "https://tutor-fixture.example/2",
+          "https://tutor-fixture.example/3",
+          "https://tutor-fixture.example/4",
+          "https://tutor-fixture.example/5",
+          "https://tutor-fixture.example/6",
+          "https://tutor-fixture.example/7",
+          "https://tutor-fixture.example/8",
+          "https://tutor-fixture.example/9",
+          "https://tutor-fixture.example/10"
+        ]
+      },
+      "volume": null,
+      "existing_urls": [
+        "https://cedarlesson.example/guides/changes"
+      ]
+    },
+    {
+      "id": "K2",
+      "keyword": "confirm changed lesson time",
+      "intent": "informational",
+      "intent_reason": "Reader wants confirmation guidance; supplied coverage assessment applies.",
+      "source_id": "F1",
+      "serp": {
+        "source_id": "F2",
+        "date": "2026-10-15",
+        "market": "GB",
+        "language": "en",
+        "device": "desktop",
+        "organic_urls": [
+          "https://tutor-fixture.example/1",
+          "https://tutor-fixture.example/2",
+          "https://tutor-fixture.example/3",
+          "https://tutor-fixture.example/4",
+          "https://tutor-fixture.example/5",
+          "https://tutor-fixture.example/6",
+          "https://tutor-fixture.example/7",
+          "https://tutor-fixture.example/8",
+          "https://tutor-fixture.example/11",
+          "https://tutor-fixture.example/12"
+        ]
+      },
+      "volume": null,
+      "existing_urls": [
+        "https://cedarlesson.example/guides/changes"
+      ]
+    }
+  ],
+  "existing_page_inventory": {
+    "status": "partial",
+    "source_id": "F1",
+    "evidence_locator": "Fictional inventory: supplied-input.json",
+    "pages": [
+      {
+        "url": "https://cedarlesson.example/guides/changes",
+        "title": "Lesson-change checklist",
+        "source_id": "F1",
+        "coverage": "sufficient",
+        "evidence_locator": "supplied guide excerpt in brief.md"
+      }
+    ]
+  }
+}
