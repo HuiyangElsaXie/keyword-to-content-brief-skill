@@ -2,13 +2,27 @@
 
 **工具定位：在 Codex 中完成有证据边界的关键词簇规划与内容简报。** 可从种子词、URL、策略文件或获准使用的导出数据开始。Agent 在实际工具与权限允许时研究候选词、核对证据、规划支柱页／子主题页及内链，再审阅计划、交互地图、逐页 brief 与规划评分卡。Python 模块保持离线；不内置搜索量、实时 SERP 或 Search Console 连接器。
 
-报告是否有用，取决于输入数据的质量、完整性和覆盖范围。缺失证据必须明确保留；输出是供人工判断的建议，不等于页面必须修改或线上故障已经证实。这个仓库用于作品集展示分析判断与报告交付能力，并非 Huiyang 的主要生产工作流。
+## 一分钟开始
 
-**日常／客户项目用法：** 客户已提供获准使用的关键词导出、页面清单及兼容的搜索结果证据时，可用它辅助整理内容规划报告与写作 brief。 使用前先映射为约定的数据格式，核对来源与缺失字段，向客户交付前仍需人工审阅。作品集展示不是唯一用途；这也不表示它已成为经过完整验证的生产服务，或替新增内容选定了许可。
+[现行规则输出计划](cases/inventory-context-repair/final-marine-existing/cluster-plan.md) · [现行 brief 骨架，待编辑完善](cases/inventory-context-repair/final-marine-existing/cluster-briefs/page-001.md) · [早期完整编辑报告，历史示例](examples/intake-case/final-report.md) · [现行行为复核](cases/inventory-context-repair/REVIEW.md)
+
+链接示例均使用合成输入。历史完整报告用于理解编辑交接，不代表当前 CLI 决策或真实需求。
+
+| 手头资料／使用方式 | 最短下一步 | 交付与边界 |
+|---|---|---|
+| 只有网址或种子词；Codex／AI 对话 | 先读 [skill](skills/keyword-to-content-brief/SKILL.md)，提供网址／词、受众、目标和已知页面清单，只补问关键缺口。 | Agent 研究取决于实际可用且获准的工具；没有工具就分析已给资料并标明暂定假设。网址不是关键词或 SERP 导出。 |
+| 已有关键词、页面或搜索证据；Codex／AI | 提供获准文件及来源、日期、市场、语言、设备，请先核对已有页面，再交付待审 brief。 | AI 映射输入并完成编辑判断；普通搜索结果不等于有序 Google 自然结果前十。 |
+| Python 离线；已有结构化证据 | 按 [JSON 问卷与模板](skills/keyword-to-content-brief/QUESTIONNAIRE.md)及下方离线命令运行，使用新输出目录。 | 输出证据决策和未完成 brief 骨架，不自动搜索、抓站或写文章；[cluster renderer](docs/CODEX-CLUSTER-PORT.md)使用另一套 schema。 |
+
+示例请求：“基于这个网址和我提供的页面清单，为指定受众与目标做页面决策和待审 brief；缺 SERP 证据就保持未知，不发布。”保留仓库结构；其他 AI 宿主需自行核对工具与路径，不承诺未经测试的跨宿主兼容。
+
+报告是否有用，取决于输入数据的质量、完整性和覆盖范围。缺失证据必须明确保留；输出是供人工判断的建议，不等于页面必须修改或线上故障已经证实。本项目个人自用，会随工作流实践持续更新。
+
+**日常／客户项目用法：** 客户已提供获准使用的关键词导出、页面清单及兼容的搜索结果证据时，可用它辅助整理内容规划报告与写作 brief。 使用前先映射为约定的数据格式，核对来源与缺失字段，向客户交付前仍需人工审阅。实际使用仍须审阅；这不表示它已成为经过完整验证的生产服务，或替新增内容选定了许可。
 
 **基于 [AgriciDaniel/claude-seo 的 seo-cluster](https://github.com/AgriciDaniel/claude-seo/blob/4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-cluster/SKILL.md) 实质改编**：v2.4.2，固定提交 4b99de2f7de7e7d5247042e5fb5b4ea9368ef734。上游 MIT，Copyright (c) 2026 agricidaniel；源文件还署名 Lutfiya Miller。[原始快照与完整许可](upstream/claude-seo/) · [署名说明](ATTRIBUTION.md) · [逐项改编对照](ADAPTATION.md) · [English](README.md)
 
-新增原创部分的许可仍待所有者选择，不能宣称整个仓库已经 MIT 开源。非商业作品集展示是使用意图，不是限制上游 MIT 商业使用权的新条款。
+新增原创部分的许可仍待所有者选择，不能宣称整个仓库已经 MIT 开源。个人自用是项目用途，不是限制上游 MIT 商业使用权的新条款。
 
 当前行为请看[已有页面/业务目标修复案例及独立检查](cases/inventory-context-repair/REVIEW.md)。下方早期成对示例保留历史版本证据，旧生成计划不代表当前决策门。
 

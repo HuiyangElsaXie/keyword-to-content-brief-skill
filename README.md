@@ -2,13 +2,29 @@
 
 **Purpose: plan evidence-led keyword clusters and reviewable content briefs in Codex.** Start with a seed, URL, strategy or permitted exports. The agent researches where authorized tools are available, qualifies evidence, designs pillar/spoke architecture and links, and reviews the plan, interactive map, individual briefs and planning scorecard. Python renderers stay offline; keyword discovery is an agent task, and no built-in search-volume, live SERP or Search Console connector is claimed.
 
-Report usefulness depends on the quality, completeness and scope of the supplied data. Missing evidence must remain explicit; outputs are proposals for human review, not proof that a page needs changing or that a live defect exists. This repository is a portfolio demonstration of analytical reasoning and reporting, not a representation of Huiyang's primary production workflow.
+## Start in one minute
 
-**Everyday/client use:** If a client supplies a permitted keyword export, page inventory and compatible search-result evidence, this workflow can help prepare a planning report and writer brief. Map inputs to the documented schema, check provenance and missing fields, and review conclusions before client delivery. Portfolio demonstration is not the only possible use; it does not turn the draft into a fully validated production service or settle the pending license for new contributions.
+[Current example plan](cases/inventory-context-repair/final-marine-existing/cluster-plan.md) · [Current brief scaffold — needs editorial completion](cases/inventory-context-repair/final-marine-existing/cluster-briefs/page-001.md) · [Earlier completed editorial report — historical example](examples/intake-case/final-report.md) · [Current behavior review](cases/inventory-context-repair/REVIEW.md)
+
+All linked examples use synthetic inputs. Earlier completed reports illustrate editorial handoff, not current CLI decisions or real demand.
+
+| What you have / route | Smallest useful next step | Expected result and limit |
+|---|---|---|
+| Only a URL or seed; Codex/AI conversation | Read [the skill](skills/keyword-to-content-brief/SKILL.md), supply the URL/seed, audience, objective and any known page inventory. Ask it to reuse permitted context and identify missing evidence. | Agent research depends on actual authorized tools. Without them, use supplied content and label candidate ideas provisional; a URL is not a keyword/SERP export. |
+| Existing keywords, pages or search evidence; Codex/AI | Supply the permitted files and source/date/market/language/device details. Ask for inventory-first page decisions and reviewable briefs. | The agent maps the documented input, reviews sources and finishes editorial work. General web results do not establish an ordered Google organic top ten. |
+| Python offline; structured evidence already available | Follow [the JSON template/questionnaire](skills/keyword-to-content-brief/QUESTIONNAIRE.md) and [offline helper commands](#run-the-existing-offline-helper). Use a fresh output directory. | Evidence decisions and unfinished brief scaffolds; no automatic search, crawling or finished article. The [cluster renderer](docs/CODEX-CLUSTER-PORT.md) has a separate schema. |
+
+Example request: “Use the skill on this URL and my supplied page inventory. Plan for the stated audience and objective, keep missing SERP evidence unknown, and return page decisions plus briefs for review. Do not publish.”
+
+Keep the repository structure available. Other AI hosts require their own tool/path checks; this README does not certify cross-host compatibility.
+
+Report usefulness depends on the quality, completeness and scope of the supplied data. Missing evidence must remain explicit; outputs are proposals for human review, not proof that a page needs changing or that a live defect exists. Maintained for personal use and continuously updated as the workflow develops.
+
+**Everyday/client use:** If a client supplies a permitted keyword export, page inventory and compatible search-result evidence, this workflow can help prepare a planning report and writer brief. Map inputs to the documented schema, check provenance and missing fields, and review conclusions before client delivery. Drafts still require review; everyday use does not make this a fully validated production service or settle the pending license for new contributions.
 
 **An evidence-to-editorial-handoff adaptation of [AgriciDaniel/claude-seo's seo-cluster](https://github.com/AgriciDaniel/claude-seo/blob/4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-cluster/SKILL.md), v2.4.2, pinned at 4b99de2f7de7e7d5247042e5fb5b4ea9368ef734.** Upstream is MIT, Copyright (c) 2026 agricidaniel; metadata also credits Lutfiya Miller. [Exact source/license](upstream/claude-seo/) · [Attribution](ATTRIBUTION.md) · [Concrete changes](ADAPTATION.md) · [中文](README.zh-CN.md)
 
-New original contributions are **owner-license-pending**, not yet an MIT grant. Noncommercial portfolio use is the author's intention, not a restriction on upstream MIT rights.
+New original contributions are **owner-license-pending**, not yet an MIT grant. Personal use is the project purpose, not a restriction on upstream MIT rights.
 
 Current behavior: [inventory/context repair cases and independent review](cases/inventory-context-repair/REVIEW.md). Earlier paired examples below preserve the prior version and should not be replayed as current derived plans.
 
