@@ -67,8 +67,13 @@
 
 ## 两种使用方式
 
-1. **交给 AI：** 提供 [skill](skills/keyword-to-content-brief/SKILL.md)、已有 brief 与证据。AI 先读已有信息，每轮最多问三个缺失问题；你回答（不知道也可以），AI 映射输入后分析、完成报告并审阅。
-2. **直接用 CLI：** 复制 [INPUT.template.json](skills/keyword-to-content-brief/INPUT.template.json)，用文本编辑器改 JSON，不改 Python；按[双语可填写问卷](skills/keyword-to-content-brief/QUESTIONNAIRE.md)中的命令运行。脚本不互动提问，会自动选择 tailored／industry_general／generic_framework，输出下一轮问题与未完成骨架，再由 AI／编辑完成报告。
+可交给 AI 阅读 [skill](skills/keyword-to-content-brief/SKILL.md)，也可直接编辑 [INPUT.template.json](skills/keyword-to-content-brief/INPUT.template.json)，按[问卷命令](skills/keyword-to-content-brief/QUESTIONNAIRE.md)运行 CLI。分工如下：
+
+1. **你**提供业务决策、受众、已知页面清单和获准关键词／搜索导出；未知可以明确回答未知。
+2. **AI**复用背景，每轮最多问三个关键缺口，并映射所选输入契约；直接 CLI 路径由**你**编辑 JSON，不互动提问。
+3. **AI／离线模块**核对证据，按路径生成计划、骨架或 cluster 产物；研究取决于实际授权工具，缺 SERP／搜索量保持未知。
+4. **AI**审阅意图、已有覆盖、容量与主张，完善编辑 brief，记录修正并保留首稿。
+5. **你**收到计划与简报后判断内容取舍再采用；完整模块另含地图、内链和评分卡，原 helper 单独只产待编辑完善的骨架。不执行文章生产或发布。
 
 问卷包含精确字段映射，沿用[规范业务提问](docs/business-intake.md)，**不会自动导入脚本**。明确不知道用 unknown 状态加真正的 JSON null，不重复追问；省略的必要字段才可能成为下一轮问题。模板可直接运行，但只有明确标为虚构的占位关键词，没有真实搜索证据；实际使用前需替换。每次输出到新的空目录。[模板执行检查](docs/usage-template-checks-20261016.md)。
 

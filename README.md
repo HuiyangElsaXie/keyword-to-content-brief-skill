@@ -76,8 +76,13 @@ Helper output: pair evidence matrix; alias-preserving groups; page decisions wit
 
 ## Two ways to use it
 
-1. **With an AI:** provide [the skill](skills/keyword-to-content-brief/SKILL.md), your existing brief and evidence. The AI reads first, asks up to three missing questions at a time, accepts your answers (including unknown), maps them to the input, then analyzes, writes and reviews the report.
-2. **With the CLI:** copy [INPUT.template.json](skills/keyword-to-content-brief/INPUT.template.json), edit JSON in a text editor (no Python changes), and run the command in the [fillable bilingual questionnaire](skills/keyword-to-content-brief/QUESTIONNAIRE.md). The noninteractive helper automatically chooses tailored / industry_general / generic_framework and outputs next questions and unfinished scaffolds; an AI/editor completes the report.
+Use an **AI conversation** with [the skill](skills/keyword-to-content-brief/SKILL.md), or edit [INPUT.template.json](skills/keyword-to-content-brief/INPUT.template.json) and use the CLI commands in the [questionnaire](skills/keyword-to-content-brief/QUESTIONNAIRE.md). The roles along either route are:
+
+1. **You** supply the business decision, audience, known page inventory and any permitted keyword/search exports; unknowns are valid answers.
+2. **AI** reuses context, asks only missing essentials (up to three at a time) and maps the chosen input contract. For direct CLI use, **you** edit/map JSON; it does not ask questions interactively.
+3. **AI / offline module** qualifies evidence and produces the selected route's plan/scaffolds or cluster bundle; research requires actual authorized tools, and missing SERP/volume stays unknown.
+4. **AI** reviews intent, existing-page coverage, capacity and claims, completes editorial briefs and records corrections while preserving the first output.
+5. **You** receive the plan/briefs and judge content trade-offs before adoption. The full module adds map/link/scorecard artifacts; the retained helper alone supplies unfinished scaffolds for editorial completion. Article production and publishing remain outside the workflow.
 
 The questionnaire includes exact field mapping and links to the [canonical intake](docs/business-intake.md). It is **not automatically imported**. Explicit unknown answers use JSON null and suppress repeat questions; omitted fields can generate next questions. The template is runnable but deliberately fictional, with one placeholder keyword and no search-result evidence; replace those before real use. Always write to a fresh/empty output directory. [Template checks](docs/usage-template-checks-20261016.md).
 
